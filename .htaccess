@@ -1,0 +1,83 @@
+# ======================================================================
+# CONFIGURACIÓN OPTIMIZADA PARA HOSTINGER / APACHE / LITESPEED
+# DULCE SECRETO — TIENDA BOUTIQUE & E-COMMERCE
+# ======================================================================
+
+# 1. Página de inicio predeterminada
+DirectoryIndex index.html
+
+# 2. Codificación UTF-8
+AddDefaultCharset UTF-8
+
+# 3. Tipos MIME correctos
+<IfModule mod_mime.c>
+  AddType application/json .json
+  AddType text/javascript .js
+  AddType text/css .css
+  AddType image/jpeg .jpg .jpeg
+  AddType image/png .png
+  AddType image/svg+xml .svg
+  AddType image/webp .webp
+</IfModule>
+
+# 4. Seguridad: Ocultar listado de directorios y protección de archivos sensibles
+Options -Indexes
+
+<FilesMatch "^\.">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(env|bat|log|md)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# 5. Cabeceras de seguridad HTTP
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  # Permitir CORS para fuentes e iconos si se requieren
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js|json)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+
+# 6. Compresión Gzip / Deflate para máxima velocidad de carga
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# 7. Caché en el navegador para imágenes y recursos estáticos
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+</IfModule>
+
+# 8. Enrutamiento automático de API hacia PHP en Hostinger / Apache
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # Reescribir /api/nombre a api/nombre.php automáticamente
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^api/([a-zA-Z0-9_-]+)$ api/$1.php [L,QSA]
+</IfModule>

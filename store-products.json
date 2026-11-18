@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "ds-corse-15",
+    "name": "Corset Body Negro en Encaje con Escote en V y Corte Anatómico",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.8,
+    "reviewsCount": 94,
+    "salesCount": 590,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "PREMIUM"
+    ],
+    "description": "Body corset confeccionado en encaje de tacto ultrasuave con escote en V continuo, copas reforzadas sin aro y diseño anatómico que moldea la figura con máxima comodidad.",
+    "composition": "89% Poliamida, 11% Elastano.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-body-negro-escote-profundo.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-14",
+    "name": "Corset Body Vino Tinto con Acordonado Lateral en Cintas",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 130,
+    "salesCount": 830,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "TENDENCIA"
+    ],
+    "description": "Elegante body corset color borgoña en encaje elastizado, con lazos entrelazados en los laterales para ceñir la cintura a la medida deseada.",
+    "composition": "91% Poliamida, 9% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-body-vino-tinto-acordonado.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-13",
+    "name": "Corset Body Negro en Encaje Floral con Lazo Decorativo",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.7,
+    "reviewsCount": 86,
+    "salesCount": 540,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "CLÁSICO"
+    ],
+    "description": "Silueta estilizada en encaje floral negro continuo, escote corazón decorado con lazo de raso y tirantes graduables que brindan ajuste perfecto.",
+    "composition": "90% Poliamida, 10% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-body-negro-encaje-lazo.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-12",
+    "name": "Corset Body Negro con Escote Pronunciado y Tiras Cruzadas",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 108,
+    "salesCount": 690,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "MODERNO"
+    ],
+    "description": "Body corset en encaje negro con escote en V pronunciado, tiras decorativas cruzadas en el pecho y espalda abierta con tirantes regulables.",
+    "composition": "88% Poliamida, 12% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-body-negro-tiras-cruzadas.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-11",
+    "name": "Corset Negro en Tul Geométrico y Encaje con Ligueros",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.8,
+    "reviewsCount": 95,
+    "salesCount": 620,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "MÁS VENDIDO"
+    ],
+    "description": "Corset estructurado en microtul y encaje negro, con cortes geométricos en la cintura que afinan el contorno corporal y ligueros desmontables.",
+    "composition": "90% Poliamida, 10% Elastano.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-negro-tul-encaje-ligueros.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-10",
+    "name": "Corset Rojo Pasión Strappy con Tiras Dobles y Encaje",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 112,
+    "salesCount": 710,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "ESTILO ÚNICO"
+    ],
+    "description": "Corset en encaje rojo brillante con diseño de tiras elásticas dobles en el abdomen y contorno, copas con soporte estructurado y juego de ligueros.",
+    "composition": "89% Poliamida, 11% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-rojo-tiras-liguero-encaje.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-09",
+    "name": "Corset Azul Noche con Herrajes Metálicos de Corazón y Encaje",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 135,
+    "salesCount": 820,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "TENDENCIA"
+    ],
+    "description": "Diseño exclusivo en encaje azul marino intenso con herrajes plateados en forma de corazón en el escote y cintura, varillas anatómicas y ligueros a juego.",
+    "composition": "90% Poliamida, 10% Spandex con herrajes de aleación niquelada.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-azul-marino-herrajes-corazon.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-08",
+    "name": "Corset Blanco en Tul Ilusión y Encaje con Ligueros",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.8,
+    "reviewsCount": 79,
+    "salesCount": 510,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "SUAVE"
+    ],
+    "description": "Confeccionado en tul semitransparente con bordados florales en blanco puro, varillas flexibles que estilizan el talle y cuatro tirantes liguero graduables.",
+    "composition": "88% Poliamida, 12% Elastano.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-blanco-tul-encaje-ligueros.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-07",
+    "name": "Corset Body Blanco en Encaje Floral con Detalles de Vuelos",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 104,
+    "salesCount": 680,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "EXCLUSIVO"
+    ],
+    "description": "Body corset en fino encaje blanco con delicados vuelos en tirantes y escote, panel central en tul suave y ligueros inferiores ajustables.",
+    "composition": "90% Poliamida, 10% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-blanco-body-vuelos-encaje.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-06",
+    "name": "Corset Rojo Escarlata con Acordonado Frontal y Encaje",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 160,
+    "salesCount": 940,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "FAVORITO"
+    ],
+    "description": "Corset en encaje rojo escarlata con ojales metálicos y cinta trenzada ajustable al frente que permite graduar el talle, incluye copas con varilla y ligueros.",
+    "composition": "92% Poliamida, 8% Elastano con cinta de satén.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-rojo-acordonado-frontal-encaje.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-05",
+    "name": "Corset Azul Marino Cuello Halter en Encaje Floral y Ligueros",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.8,
+    "reviewsCount": 88,
+    "salesCount": 570,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "ELEGANCIA"
+    ],
+    "description": "Diseño cuello halter en encaje azul marino de alta elasticidad, copas con soporte y tirantes de liguero ajustables para una figura definida.",
+    "composition": "88% Poliamida, 12% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-azul-marino-halter-encaje.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-04",
+    "name": "Corset Blanco en Encaje Nupcial con Ligueros y Tirantes Ajustables",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 96,
+    "salesCount": 640,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "NUPCIAL"
+    ],
+    "description": "Exquisito corset en encaje nupcial blanco con copas prehormonadas, varillas de soporte que enmarcan la cintura y ligueros regulables con acabados finos.",
+    "composition": "90% Poliéster, 10% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-blanco-encaje-tirantes-cruzados.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-03",
+    "name": "Corset Rosa Pastel en Encaje con Varillas y Ligueros a Juego",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 125,
+    "salesCount": 810,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "ROMÁNTICO"
+    ],
+    "description": "Confeccionado en encaje traslúcido rosa pastel con varillas verticales que estilizan la silueta, escote corazón con delicado lazo frontal y ligueros regulables.",
+    "composition": "85% Poliamida, 15% Elastano de alta durabilidad.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-rosa-encaje-copas-varilla.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-02",
+    "name": "Corset Rojo Vino en Encaje con Copas Estructuradas y Ligueros",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 118,
+    "salesCount": 730,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "TENDENCIA"
+    ],
+    "description": "Diseño elegante en encaje floral color vino tinto, con copas con varilla para óptimo soporte, silueta anatómica y tirantes liguero regulables.",
+    "composition": "90% Poliamida, 10% Spandex hipoalergénico.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-rojo-vino-encaje-ligueros.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-corse-01",
+    "name": "Corset Estructurado Negro en Encaje con Tirantes Liguero",
+    "category": "Corse",
+    "regularPrice": 74000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 142,
+    "salesCount": 890,
+    "tags": [
+      "NUEVO",
+      "CORSET",
+      "MÁS VENDIDO"
+    ],
+    "description": "Corset estructurado confeccionado en fino encaje floral negro, con copas con varilla para realce natural, ballenas moldeadoras y cuatro ligueros ajustables con broches metálicos.",
+    "composition": "88% Poliamida, 12% Spandex elástico con forro de algodón suave.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/corset-negro-encaje-liguero.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-bralette-07",
+    "name": "Bralette Blanco Longline en Encaje con Panty a Juego",
+    "category": "Bralete",
+    "regularPrice": 65000,
+    "salePrice": 45000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 130,
+    "salesCount": 750,
+    "tags": [
+      "NUEVO",
+      "BRALETTES",
+      "MÁS VENDIDO"
+    ],
+    "description": "Top tipo bralette largo (longline) en encaje floral blanco con copas estructuradas, tirantes ajustables y panty tipo culotte a juego en encaje suave.",
+    "composition": "90% Poliamida, 10% Spandex de tacto suave.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bralette-blanco-longline-encaje.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-bralette-06",
+    "name": "Conjunto Bralette Rosa Palo en Encaje con Doble Tirante",
+    "category": "Bralete",
+    "regularPrice": 65000,
+    "salePrice": 45000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 89,
+    "salesCount": 470,
+    "tags": [
+      "NUEVO",
+      "BRALETTES",
+      "DELICADO"
+    ],
+    "description": "Conjunto en suave encaje tono rosa empolvado con copas triangulares, tirantes dobles regulables y detalles de lazos satinados.",
+    "composition": "88% Poliamida, 12% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bralette-rosa-doble-tirante.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-bralette-05",
+    "name": "Conjunto Bralette Rojo Halter con Cadenas Decorativas",
+    "category": "Bralete",
+    "regularPrice": 65000,
+    "salePrice": 45000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 105,
+    "salesCount": 590,
+    "tags": [
+      "NUEVO",
+      "BRALETTES",
+      "EDICIÓN ESPECIAL"
+    ],
+    "description": "Conjunto en encaje rojo con cuello halter ajustable, herraje central en forma de corazón y cadenas metálicas decorativas que conectan al panty.",
+    "composition": "90% Poliamida, 10% Spandex con forro suave.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bralette-rojo-halter-cadenas.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-bralette-04",
+    "name": "Conjunto Bralette Rojo con Tiras Geométricas y Encaje",
+    "category": "Bralete",
+    "regularPrice": 65000,
+    "salePrice": 45000,
+    "isFlashSale": true,
+    "rating": 4.8,
+    "reviewsCount": 78,
+    "salesCount": 410,
+    "tags": [
+      "NUEVO",
+      "BRALETTES",
+      "FAVORITO"
+    ],
+    "description": "Conjunto confeccionado en encaje rojo con copas triangulares forradas y diseño de tiras geométricas decorativas sobre el pecho y la cintura.",
+    "composition": "92% Poliamida, 8% Elastano.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bralette-rojo-tiras-geometricas.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-bralette-03",
+    "name": "Conjunto Bralette Negro Diseño Contemporáneo con Aros Metálicos",
+    "category": "Bralete",
+    "regularPrice": 65000,
+    "salePrice": 45000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 110,
+    "salesCount": 680,
+    "tags": [
+      "NUEVO",
+      "BRALETTES",
+      "ESTILO ÚNICO"
+    ],
+    "description": "Diseño contemporáneo en tejido negro liso y elástico con detalles de aros metálicos brillantes, gargantilla a juego y tiras cruzadas decorativas.",
+    "composition": "90% Poliéster, 10% Elastano con herrajes inoxidables.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bralette-negro-aros-metalicos.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-bralette-02",
+    "name": "Conjunto Bralette Rojo con Copas Estructuradas y Lazos",
+    "category": "Bralete",
+    "regularPrice": 65000,
+    "salePrice": 45000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 92,
+    "salesCount": 520,
+    "tags": [
+      "NUEVO",
+      "BRALETTES",
+      "TENDENCIA"
+    ],
+    "description": "Conjunto en encaje rojo escarlata con copas con varilla para soporte suave, lazos decorativos en los tirantes y panty con amarres laterales ajustables.",
+    "composition": "88% Poliamida, 12% Spandex elástico.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bralette-rojo-copas-lazos.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-bralette-01",
+    "name": "Conjunto Bralette Lila en Encaje Floral Festoneado",
+    "category": "Bralete",
+    "regularPrice": 65000,
+    "salePrice": 45000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 84,
+    "salesCount": 460,
+    "tags": [
+      "NUEVO",
+      "BRALETTES",
+      "MÁS VENDIDO"
+    ],
+    "description": "Conjunto de dos piezas en encaje floral tono lila con tirantes anchos suaves, escote en V y bordes festoneados elásticos.",
+    "composition": "90% Poliamida, 10% Spandex hipoalergénico.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bralette-lila-encaje-festoneado.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-bailarina-06",
+    "name": "Conjunto Estilo Bailarina en Encaje Negro y Falda Tutú",
+    "category": "Bailarinas",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 102,
+    "salesCount": 570,
+    "tags": [
+      "NUEVO",
+      "BAILARINAS",
+      "DESTACADO"
+    ],
+    "description": "Conjunto en encaje floral negro con tirantes de vuelos en los hombros, copas estructuradas y falda corta de tul con liguero.",
+    "composition": "92% Poliamida, 8% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bailarina-encaje-negro-tutu.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-disfraz-06"
+    ]
+  },
+  {
+    "id": "ds-bailarina-05",
+    "name": "Conjunto Estilo Bailarina Rojo con Lazos y Falda de Tul",
+    "category": "Bailarinas",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.8,
+    "reviewsCount": 88,
+    "salesCount": 490,
+    "tags": [
+      "NUEVO",
+      "BAILARINAS",
+      "FAVORITO"
+    ],
+    "description": "Conjunto rojo compuesto por top de satín con lazos decorativos y falda corta en capas de tul tipo tutú con ligueros integrados.",
+    "composition": "90% Poliéster, 10% Satín seda con tul elástico.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bailarina-tutu-rojo-lazos.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-disfraz-06"
+    ]
+  },
+  {
+    "id": "ds-bailarina-04",
+    "name": "Conjunto Estilo Bailarina en Cuerotex con Falda de Aberturas y Tirantes",
+    "category": "Bailarinas",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 114,
+    "salesCount": 620,
+    "tags": [
+      "NUEVO",
+      "BAILARINAS",
+      "ESTILO ÚNICO"
+    ],
+    "description": "Conjunto en cuerotex negro con arnés superior al cuello, falda con aberturas estilizadas y ligueros ajustables.",
+    "composition": "90% Cuerotex sintético, 10% Spandex.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bailarina-cuerotex-aberturas-arnes.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-disfraz-06"
+    ]
+  },
+  {
+    "id": "ds-bailarina-03",
+    "name": "Conjunto Estilo Bailarina en Encaje Azul Marino con Vuelo",
+    "category": "Bailarinas",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 130,
+    "salesCount": 780,
+    "tags": [
+      "NUEVO",
+      "BAILARINAS",
+      "EXCLUSIVO"
+    ],
+    "description": "Prenda en encaje floral elástico tono azul noche, con copas con varilla, falda corta de encaje con vuelo y detalle de broches decorativos.",
+    "composition": "92% Poliamida, 8% Elastano con forro de algodón suave.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bailarina-encaje-azul-marino.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-disfraz-06"
+    ]
+  },
+  {
+    "id": "ds-bailarina-02",
+    "name": "Conjunto Estilo Bailarina en Tul Negro con Vuelos Rojos",
+    "category": "Bailarinas",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 95,
+    "salesCount": 540,
+    "tags": [
+      "NUEVO",
+      "BAILARINAS",
+      "TENDENCIA"
+    ],
+    "description": "Conjunto elaborado en tul suave negro con ribetes ondulados en contraste rojo, apliques decorativos de corazón y falda corta con doble volante.",
+    "composition": "88% Poliamida, 12% Spandex elástico de alta suavidad.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bailarina-tul-negro-ribetes-rojos.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-disfraz-06"
+    ]
+  },
+  {
+    "id": "ds-bailarina-01",
+    "name": "Conjunto Estilo Bailarina en Cuerotex con Falda Acampanada",
+    "category": "Bailarinas",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 108,
+    "salesCount": 650,
+    "tags": [
+      "NUEVO",
+      "BAILARINAS",
+      "MÁS VENDIDO"
+    ],
+    "description": "Conjunto de dos piezas confeccionado en cuerotex sintético con top de copas estructuradas y falda corta acampanada con pretina de tiras.",
+    "composition": "90% Poliéster con acabado cuerotex, 10% Elastano.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/bailarina-cuerotex-negro-falda.jpg"
+    ],
+    "crossSellIds": [
+      "ds-babydoll-04",
+      "ds-disfraz-06"
+    ]
+  },
+  {
+    "id": "ds-babydoll-04",
+    "name": "Babydoll Negro en Tul con Lazo de Satín Rojo",
+    "category": "Babydoll",
+    "regularPrice": 67000,
+    "salePrice": 46000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 125,
+    "salesCount": 810,
+    "tags": [
+      "NUEVO",
+      "FAVORITO",
+      "BABYDOLL"
+    ],
+    "description": "Babydoll negro con copas en encaje trabajado y cuerpo de tul translúcido. Resalta una cinta y lazo frontal en satín rojo brillante de caída larga con ribete a juego.",
+    "composition": "90% Poliamida, 10% Elastano con cinta de satín de seda.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/babydoll-negro-cinta-roja-satin.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-babydoll-03",
+    "name": "Babydoll Negro Escote Hombros Descubiertos con Vuelo",
+    "category": "Babydoll",
+    "regularPrice": 67000,
+    "salePrice": 46000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 96,
+    "salesCount": 620,
+    "tags": [
+      "NUEVO",
+      "EXCLUSIVO",
+      "BABYDOLL"
+    ],
+    "description": "Diseño estilo campesino con escote elástico de hombros descubiertos adornado con volantes delicados, cordón de ajuste frontal y falda amplia de caída ligera.",
+    "composition": "88% Poliéster, 12% Spandex elástico de alta suavidad.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/babydoll-negro-hombros-descubiertos.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-babydoll-02",
+    "name": "Babydoll Negro con Tiras Geométricas y Encaje",
+    "category": "Babydoll",
+    "regularPrice": 67000,
+    "salePrice": 46000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 118,
+    "salesCount": 760,
+    "tags": [
+      "NUEVO",
+      "TENDENCIA",
+      "BABYDOLL"
+    ],
+    "description": "Elegante babydoll negro en tul semitransparente con copas de encaje festoneado y tiras cruzadas decorativas en la parte superior. Falda holgada con ribete de encaje en el ruedo.",
+    "composition": "92% Poliamida, 8% Elastano.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/babydoll-negro-tiras-cruzadas.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-babydoll-01",
+    "name": "Babydoll Rojo Vino con Vuelos y Encaje Floral",
+    "category": "Babydoll",
+    "regularPrice": 67000,
+    "salePrice": 46000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 142,
+    "salesCount": 890,
+    "tags": [
+      "NUEVO",
+      "MÁS VENDIDO",
+      "BABYDOLL"
+    ],
+    "description": "Babydoll confeccionado en tul ligero y encaje floral en tono rojo vino. Cuenta con copas triangulares estructuradas, lazo frontal y falda fluida con acabado en vuelos.",
+    "composition": "90% Poliamida, 10% Spandex. Tejido extra suave al tacto y elástico.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/babydoll-rojo-vuelos-encaje.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bralette-07"
+    ]
+  },
+  {
+    "id": "ds-disfraz-06",
+    "name": "Disfraz Temático Colegiala Manga Larga con Falda Escocesa",
+    "category": "Disfraces",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 104,
+    "salesCount": 510,
+    "tags": [
+      "NUEVO",
+      "DISFRACES",
+      "DESTACADO"
+    ],
+    "description": "Conjunto temático estilo estudiante compuesto por crop top blanco manga larga con lazo frontal y detalle a cuadros, acompañado de minifalda tableada escocesa roja con ligueros decorativos.",
+    "composition": "90% Poliéster, 10% Spandex transpirable y flexible.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/disfraz-colegiala-manga-larga.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-disfraz-05",
+    "name": "Conjunto Temático Cuerotex Negro con Arnés Decorativo",
+    "category": "Disfraces",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 135,
+    "salesCount": 680,
+    "tags": [
+      "NUEVO",
+      "DISFRACES",
+      "ESTILO URBANO"
+    ],
+    "description": "Conjunto temático en acabado efecto piel / cuerotex negro. Cuenta con top estructurado, arnés superior cruzado con cadena metálica decorativa y falda acampanada de tiro alto.",
+    "composition": "Cuerotex sintético flexible de alta calidad con forro interior suave.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/disfraz-cuerotex-arnes-negro.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-disfraz-04",
+    "name": "Disfraz Temático Enfermera Clásica con Ribetes Rojos",
+    "category": "Disfraces",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.8,
+    "reviewsCount": 94,
+    "salesCount": 470,
+    "tags": [
+      "NUEVO",
+      "DISFRACES",
+      "MÁS PEDIDO"
+    ],
+    "description": "Conjunto temático de enfermera en tela blanca con ribetes rojos. Incluye top tipo halter con cruz bordada, minifalda con encaje y lazos decorativos, y manguitos a juego.",
+    "composition": "88% Poliamida, 12% Spandex. Tejido liviano y cómodo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/disfraz-enfermera-clasica.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-disfraz-03",
+    "name": "Disfraz Temático Fantasía Roja en Vinilo Charol con Guantes",
+    "category": "Disfraces",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 76,
+    "salesCount": 390,
+    "tags": [
+      "NUEVO",
+      "DISFRACES",
+      "EDICIÓN ESPECIAL"
+    ],
+    "description": "Conjunto temático confeccionado en vinilo charol rojo brillante. Incluye top con cordones ajustables al frente, minifalda con volantes superpuestos y guantes largos mitones.",
+    "composition": "95% Poliéster con acabado vinilo brillante, 5% Spandex elástico.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/disfraz-fantasia-vinilo-rojo.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-disfraz-02",
+    "name": "Disfraz Temático Mucama Francesa en Satín y Encaje",
+    "category": "Disfraces",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 4.9,
+    "reviewsCount": 112,
+    "salesCount": 560,
+    "tags": [
+      "NUEVO",
+      "DISFRACES",
+      "FAVORITO"
+    ],
+    "description": "Conjunto temático tipo mucama que incluye top corsetero negro con ribetes de encaje blanco, minifalda roja satinada con vuelos y delantal decorativo con bordado.",
+    "composition": "92% Poliamida, 8% Elastano con apliques en encaje suave.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/disfraz-mucama-francesa.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  },
+  {
+    "id": "ds-disfraz-01",
+    "name": "Disfraz Temático Colegiala con Tirantes y Falda Escocesa",
+    "category": "Disfraces",
+    "regularPrice": 72000,
+    "salePrice": 50000,
+    "isFlashSale": true,
+    "rating": 5,
+    "reviewsCount": 88,
+    "salesCount": 420,
+    "tags": [
+      "NUEVO",
+      "DISFRACES",
+      "TENDENCIA"
+    ],
+    "description": "Conjunto temático de 4 piezas que incluye crop top negro de anudar, tirantes elásticos ajustables, corbata y minifalda tableada con estampado escocés clásico.",
+    "composition": "90% Poliéster, 10% Elastano. Confección suave y elástica de fácil ajuste.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "images/products/disfraz-colegiala-tirantes.jpg"
+    ],
+    "crossSellIds": [
+      "ds-corse-15",
+      "ds-bailarina-06"
+    ]
+  }
+]

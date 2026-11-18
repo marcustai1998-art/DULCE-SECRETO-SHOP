@@ -1,0 +1,3296 @@
+<!DOCTYPE html>
+<html class="t4sp-theme t4s-wrapper__full_width rtl_false swatch_color_style_2 pr_border_style_1 pr_img_effect_2 enable_eff_img1_true badge_shape_1 css_for_wis_app_true shadow_round_img_false t4s-header__inline is-remove-unavai-2 t4_compare_true t4s-cart-count-0 t4s-pr-ellipsis-false js t4sp-sticky t4sp-hover dark" lang="es" data-theme="vino-secreto">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#140306">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="apple-touch-icon" href="images/favicon.svg">
+  <link rel="manifest" href="manifest.json">
+  <link rel="canonical" href="https://dulcesecreto.com/">
+  <title id="page-title">DULCE SECRETO | Lencería Colombiana | Alta Lencería | Moda Íntima Colombiana</title>
+
+  <!-- Datos Estructurados Schema.org para Google y SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Dulce Secreto",
+    "image": "images/banners/banner-01-dulce-secreto-seduccion.jpg",
+    "description": "Boutique colombiana especializada en lencería, babydolls, corsés, bralettes, disfraces y bailarinas finas. Pago contra entrega en Bogotá y envíos nacionales con pago anticipado.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bogotá",
+      "addressCountry": "CO"
+    },
+    "telephone": "+57 313 239 3554",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- Inicialización Instantánea: MODO OSCURO AUTOMÁTICO AL ABRIR LA PÁGINA -->
+  <script>
+    (function() {
+      document.documentElement.classList.add('dark');
+    })();
+  </script>
+  <meta name="description" content="Tienda Oficial de DULCE SECRETO Lencería Premium Colombiana. Compra Online ropa interior y lencería sensual para mujer, fragancias sensuales de alta perfumería y lencería fina. Envíos a todo el mundo.">
+  <meta name="keywords" content="DulceSecreto.com, Dulce Secreto, Lencería Colombiana, Lencería Luxury, Babydolls, Corsetería, Bralettes, Disfraces, Ropa Interior, Seducción">
+
+  <!-- Open Graph / Redes Sociales (DULCE SECRETO) -->
+  <meta property="og:site_name" content="DULCE SECRETO">
+  <meta property="og:url" content="https://dulcesecreto.com/">
+  <meta property="og:title" content="DULCE SECRETO | Lencería Colombiana | Fragancias | Bienestar Íntimo">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/banners/banner-01-dulce-secreto-seduccion.jpg">
+
+  <!-- Tipografías Oficiales Dulce Secreto: Poppins + Libre Baskerville + Playfair Display + Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800&family=Montserrat:wght@300;400;500;600;700;800&display=swap">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'Montserrat', 'sans-serif'],
+            serif: ['Libre Baskerville', 'Playfair Display', 'serif'],
+          },
+          colors: {
+            dulcesecreto: {
+              wine: '#9e1b32',
+              darkwine: '#140306',
+              accent: '#c23b53',
+              gold: '#d4af37',
+              cream: '#fbf5f6'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Sistema de Temas Personalizado (Incluye Tema Vino Secreto 2026 y Kalles) -->
+  <link rel="stylesheet" href="css/theme.css" />
+
+  <style>
+    .script-font {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+    }
+    .brand-font {
+      font-family: 'Libre Baskerville', 'Playfair Display', serif;
+    }
+    .t4s-letter-spacing-wide {
+      letter-spacing: 0.15em;
+    }
+    @keyframes pulseGlow {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.04); opacity: 0.85; filter: brightness(1.2); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .t4s-flash-badge, .badge-oferta-especial, .precio-descuento-activo {
+      animation: pulseGlow 2.2s infinite ease-in-out;
+      display: inline-block;
+    }
+    #dulceToastContainer {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .dulce-toast {
+      background: #140306;
+      color: #fff;
+      border: 1px solid #9e1b32;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(158, 27, 50, 0.4);
+      font-family: inherit;
+      font-size: 14px;
+      animation: slideInToast 0.3s ease forwards;
+    }
+    @keyframes slideInToast {
+      from { transform: translateX(100%); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+</head>
+
+<body class="template-index bg-[#fbfbfb] dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 antialiased selection:bg-[#9e1b32] selection:text-white pb-20 sm:pb-0 overflow-x-hidden">
+  
+  <!-- ======================================================================
+       ARQUITECTURA BOUTIQUE E-COMMERCE DULCE SECRETO
+       ====================================================================== -->
+  <div class="t4s-website-wrapper overflow-x-hidden w-full">
+
+    <!-- --------------------------------------------------------------------
+         ENCABEZADO PRINCIPAL (shopify-section-header-inline / t4s-section-header)
+         Logo DULCE SECRETO, Buscador Pill, Selector COP $, Carrito y Navegación
+         -------------------------------------------------------------------- -->
+    <header id="shopify-section-header-inline" class="shopify-section t4s-section t4s-section-header sticky top-0 z-40 bg-white/95 dark:bg-neutral-900/95 backdrop-blur-md border-b border-gray-100 dark:border-neutral-800 shadow-xs transition-colors">
+      <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3">
+        
+        <!-- Contenedor adaptativo: 2 filas en móvil (<sm), 1 fila en tablet/desktop (sm+) -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-4">
+          
+          <!-- Fila Superior Móvil: Logo a la izquierda, Acciones a la derecha -->
+          <div class="flex items-center justify-between w-full sm:w-auto">
+            <!-- Logotipo DULCE SECRETO -->
+            <a href="index.html" class="flex items-center gap-2 group flex-shrink-0" aria-label="Inicio Dulce Secreto">
+              <div id="brand-logo-badge" class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#9e1b32] flex items-center justify-center text-white shadow-xs group-hover:scale-105 transition-transform flex-shrink-0">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+              </div>
+              <div>
+                <span id="brand-name-display" class="brand-font text-lg sm:text-2xl font-black tracking-tight text-neutral-900 dark:text-white group-hover:text-[#9e1b32] transition-colors leading-tight block">
+                  DULCE SECRETO
+                </span>
+                <p id="brand-tagline-display" class="text-[7.5px] sm:text-[9px] tracking-[0.2em] sm:tracking-[0.25em] font-medium uppercase text-gray-400 -mt-0.5">
+                  LENCERÍA &middot; ROPA INTERIOR &middot; SEDUCCIÓN
+                </p>
+              </div>
+            </a>
+
+            <!-- Acciones en móvil (visibles en <sm, ocultas en sm:) -->
+            <div class="flex items-center gap-1 sm:hidden">
+              <button 
+                onclick="window.themeManager.toggleDarkMode()" 
+                class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-neutral-800 text-gray-700 dark:text-neutral-300 transition-colors cursor-pointer" 
+                aria-label="Alternar Modo Claro / Oscuro"
+              >
+                <i data-lucide="sun" class="w-4 h-4 text-amber-400"></i>
+              </button>
+
+              <button 
+                onclick="toggleCartDrawer(true)" 
+                class="relative p-2 rounded-full hover:bg-gray-100 dark:hover:bg-neutral-800 text-gray-900 dark:text-white transition-colors cursor-pointer" 
+                aria-label="Ver Bolsa de Compras"
+              >
+                <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+                <span 
+                  id="cart-badge-count-mobile" 
+                  class="cart-badge-count absolute -top-0.5 -right-0.5 bg-[#9e1b32] text-white font-bold text-[9px] w-4 h-4 rounded-full flex items-center justify-center shadow-xs"
+                >
+                  0
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Barra de Búsqueda: Ancho completo en móvil, max-w-xl en desktop (con Puerta Secreta marcustai) -->
+          <div class="w-full sm:flex-1 sm:max-w-xl sm:mx-4">
+            <form onsubmit="event.preventDefault(); verificarBuscador(document.getElementById('search-input').value)" class="relative flex items-center w-full">
+              <i data-lucide="search" class="w-4 h-4 text-gray-400 absolute left-3.5" aria-hidden="true"></i>
+              <input 
+                type="text" 
+                id="search-input"
+                placeholder="Busca bailarinas, babydolls, bralettes, corsés..." 
+                oninput="verificarBuscadorEnVivo(this)"
+                class="w-full pl-9 pr-20 py-2 sm:py-2.5 rounded-full border border-gray-200 dark:border-neutral-700 bg-gray-50/70 dark:bg-neutral-800 text-xs sm:text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#9e1b32] focus:bg-white dark:focus:bg-neutral-900 transition-all shadow-xs"
+              />
+              <button 
+                type="submit" 
+                aria-label="Ejecutar búsqueda"
+                class="absolute right-1.5 px-3.5 py-1.5 rounded-full bg-black hover:bg-neutral-800 text-white text-xs font-semibold shadow-xs transition-colors cursor-pointer"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+
+          <!-- Acciones de Escritorio (Ocultas en móvil, visibles en sm:) -->
+          <div class="hidden sm:flex items-center gap-2 flex-shrink-0">
+            <div class="hidden lg:flex items-center gap-1 text-[11px] font-bold px-2 py-1 rounded-full bg-gray-100 dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 border border-gray-200 dark:border-neutral-700">
+              <span>🇨🇴 COP ($)</span>
+            </div>
+
+            <!-- Configuración Admin (Solo visible cuando inicia sesión el administrador) -->
+            <div id="navbar-admin-config" class="hidden items-center">
+              <a href="admin.html" aria-label="Configuración de tienda" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-neutral-800 text-rose-600 dark:text-rose-400 hover:text-rose-700 transition-colors flex items-center gap-1 text-xs font-bold" title="Panel de Administración">
+                <i data-lucide="settings" class="w-4 h-4"></i>
+                <span class="hidden xl:inline text-[11px]">Admin</span>
+              </a>
+            </div>
+
+            <button 
+              onclick="window.themeManager.toggleDarkMode()" 
+              class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-neutral-800 text-gray-700 dark:text-neutral-300 transition-colors cursor-pointer" 
+              aria-label="Alternar Modo Claro / Oscuro" 
+              id="dark-mode-icon"
+            >
+              <i data-lucide="sun" class="w-5 h-5 text-amber-400"></i>
+            </button>
+
+            <button 
+              onclick="toggleCartDrawer(true)" 
+              class="relative p-2 rounded-full hover:bg-gray-100 dark:hover:bg-neutral-800 text-gray-900 dark:text-white transition-colors cursor-pointer" 
+              aria-label="Ver Carrito de Compras"
+            >
+              <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+              <span 
+                id="cart-badge-count" 
+                class="cart-badge-count absolute -top-0.5 -right-0.5 bg-[#9e1b32] text-white font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center shadow-xs"
+              >
+                0
+              </span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <!-- --------------------------------------------------------------------
+         3. CONTENIDO PRINCIPAL (#MainContent / content-for-layout)
+         -------------------------------------------------------------------- -->
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      
+      <!-- ==================================================================
+           SECCIÓN A: HERO / SLIDESHOW PRINCIPAL FULL-WIDTH (ESTILO DULCE SECRETO)
+           #shopify-section-template--15174892814451__1646028739ae283905
+           (Ancho Completo Edge-to-Edge, Fotografía Completa & Carrusel Dinámico)
+           ================================================================== -->
+      <section id="shopify-section-template--15174892814451__1646028739ae283905" class="shopify-section t4s-sec-slideshow w-full relative overflow-hidden bg-neutral-950">
+        <div id="hero-banner-card" class="relative w-full h-[52vh] sm:h-[65vh] md:h-[75vh] lg:h-[82vh] min-h-[440px] max-h-[860px] overflow-hidden flex items-center group select-none">
+          
+          <!-- Distintivo Flotante Catálogo 2026 (Visible y Activo) -->
+          <div id="hero-ribbon-2026" onclick="filterCategory('Todas')" class="absolute left-4 sm:left-8 top-6 z-20 flex items-center gap-2 bg-black/60 hover:bg-black/80 backdrop-blur-md border border-white/20 px-3.5 py-1.5 rounded-full text-white text-[10px] tracking-widest uppercase font-bold shadow-xl select-none cursor-pointer transition-transform hover:scale-105" title="Ver Catálogo 2026">
+            <span class="text-rose-200 font-serif">CATÁLOGO 2026</span>
+            <span class="text-white font-black bg-[#9e1b32] px-2 py-0.5 rounded-full text-[9px] shadow-sm">NUEVO</span>
+          </div>
+
+          <!-- Contenedor de Diapositivas con Cross-Fade Suave (Hasta 4 Imágenes Full-Width) -->
+          <div id="hero-slides-wrapper" class="absolute inset-0 z-0 overflow-hidden">
+            <div id="hero-slides-container" class="w-full h-full relative">
+              <a href="#catalogo" class="hero-slide opacity-100 z-10 block w-full h-full cursor-pointer" data-slide-index="0" title="Ver Colección DULCE SECRETO">
+                <img 
+                  id="hero-bg-img"
+                  src="images/banners/banner-01-dulce-secreto-seduccion.jpg" 
+                  alt="DULCE SECRETO - Seducción Inconfundible" 
+                  class="w-full h-full object-cover object-center"
+                />
+              </a>
+            </div>
+            <!-- Vignette sutil para legibilidad de textos (Oculto por defecto para Fotografía 100% Limpia estilo Dulce Secreto) -->
+            <div id="hero-vignette-overlay" class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 sm:bg-gradient-to-r sm:from-black/45 sm:via-black/15 sm:to-transparent z-10 pointer-events-none hidden"></div>
+          </div>
+
+          <!-- Contenido Textual del Hero Banner (Oculto por defecto en Modo Dulce Secreto Fotografía Limpia, Configurable en Admin) -->
+          <div id="hero-text-overlay" class="relative z-20 max-w-2xl px-6 sm:px-14 md:px-20 py-8 sm:py-12 space-y-3 sm:space-y-4" style="display: none;">
+            
+            <!-- Píldora de Nueva Colección -->
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-black/50 border border-white/25 text-white text-[10px] sm:text-xs font-semibold uppercase tracking-widest backdrop-blur-md shadow-md">
+              <span id="hero-pill-badge">NUEVA COLECCIÓN &middot; ENCAJE & SATÍN</span>
+            </div>
+
+            <!-- Título de dos tonos: "Tu secreto" + "mejor guardado" en cursiva -->
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight text-white" style="text-shadow: 0 2px 14px rgba(0,0,0,0.85);">
+              <span id="hero-title-line1" class="brand-font block">Tu secreto</span>
+              <span id="hero-title-script" class="script-font italic text-[#c23b53] block text-4xl sm:text-5xl lg:text-6xl -mt-1 sm:-mt-2 font-normal" style="text-shadow: 0 2px 14px rgba(0,0,0,0.9);">
+                mejor guardado
+              </span>
+            </h1>
+
+            <!-- Párrafo descriptivo -->
+            <p id="hero-description" class="text-white/95 text-xs sm:text-sm font-light leading-relaxed max-w-md" style="text-shadow: 0 1px 8px rgba(0,0,0,0.85);">
+              Lencería que abraza tu cuerpo y despierta tu confianza. Pago contra entrega en Bogotá y envíos a todo el país con pago anticipado.
+            </p>
+
+            <!-- Botones de Acción -->
+            <div class="flex flex-wrap items-center gap-3 pt-2">
+              <a 
+                href="#catalogo" 
+                id="hero-btn-primary"
+                class="px-7 py-3 rounded-full btn-primary-theme text-white text-xs font-bold uppercase tracking-wider shadow-2xl hover:scale-105 transition-all flex items-center gap-1.5"
+                style="background-color: #9e1b32;"
+              >
+                <span>COMPRAR AHORA</span>
+                <span>👆</span>
+              </a>
+
+              <button 
+                type="button"
+                onclick="openAIAssistantModal()" 
+                id="hero-btn-secondary"
+                class="px-5 py-3 rounded-full bg-black/50 hover:bg-black/75 border border-white/40 text-white text-xs font-medium backdrop-blur-md flex items-center gap-2 transition-all shadow-lg cursor-pointer"
+              >
+                <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+                <span>Encuentra tu talla</span>
+              </button>
+            </div>
+
+            <!-- Insignia de Empaque Discreto -->
+            <div id="hero-free-shipping-tag" class="hidden pt-1 items-center gap-2 text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.85);">
+              <span class="brand-font font-bold text-sm tracking-wide text-white">100% DISCRETO</span>
+              <span class="text-[10px] text-white/90 uppercase tracking-wider font-semibold">EMPAQUE CONFIDENCIAL</span>
+            </div>
+
+          </div>
+
+          <!-- Controles de Flechas en los Extremos de la Pantalla (Estilo Dulce Secreto) -->
+          <button 
+            type="button"
+            id="hero-prev-btn"
+            onclick="prevHeroSlide(event)" 
+            class="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-30 w-9 h-9 sm:w-13 sm:h-13 rounded-full bg-black/40 hover:bg-black/75 text-white flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 border border-white/20 shadow-2xl cursor-pointer" 
+            title="Banner Anterior"
+            aria-label="Banner Anterior"
+          >
+            <i data-lucide="chevron-left" class="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.5]"></i>
+          </button>
+
+          <button 
+            type="button"
+            id="hero-next-btn"
+            onclick="nextHeroSlide(event)" 
+            class="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-30 w-9 h-9 sm:w-13 sm:h-13 rounded-full bg-black/40 hover:bg-black/75 text-white flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 border border-white/20 shadow-2xl cursor-pointer" 
+            title="Siguiente Banner"
+            aria-label="Siguiente Banner"
+          >
+            <i data-lucide="chevron-right" class="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.5]"></i>
+          </button>
+
+          <!-- Puntos Indicadores (Dots) Centrados Abajo -->
+          <div id="hero-dots-container" class="absolute bottom-5 sm:bottom-8 left-1/2 -translate-x-1/2 z-30 flex items-center gap-2 bg-black/40 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/25 shadow-xl">
+            <!-- Dots generados dinámicamente -->
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           SECCIÓN C: CATEGORÍAS, BANNERS PROMO Y CATÁLOGO DE PRODUCTOS
+           #shopify-section-template--15174892814451__3bebbe45-166d-448c-88af-3af632417e8b
+           ================================================================== -->
+      <section id="shopify-section-template--15174892814451__3bebbe45-166d-448c-88af-3af632417e8b" class="shopify-section t4s-featured-collections">
+        
+        <!-- Categorías Circulares Rápidas (Bailarinas, Babydoll, Bralete, Corse, Disfraces) -->
+        <div class="max-w-4xl mx-auto py-3 px-3 sm:px-4">
+          <div class="flex items-center justify-start sm:justify-center gap-3.5 sm:gap-8 overflow-x-auto no-scrollbar py-2 px-1 scroll-smooth">
+            
+            <!-- Círculo 1: Bailarinas -->
+            <button onclick="filterCategory('Bailarinas')" class="flex flex-col items-center gap-2 group cursor-pointer flex-shrink-0">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#fae8eb] dark:bg-neutral-800 border border-pink-200/60 dark:border-neutral-700 flex items-center justify-center text-pink-600 shadow-xs group-hover:scale-110 group-hover:bg-pink-200/80 transition-all">
+                <span class="text-2xl">🩰</span>
+              </div>
+              <span class="text-xs font-medium text-gray-700 dark:text-neutral-300 group-hover:text-[#9e1b32] transition-colors">Bailarinas</span>
+            </button>
+
+            <!-- Círculo 2: Babydoll -->
+            <button onclick="filterCategory('Babydoll')" class="flex flex-col items-center gap-2 group cursor-pointer flex-shrink-0">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#fae8eb] dark:bg-neutral-800 border border-pink-200/60 dark:border-neutral-700 flex items-center justify-center text-[#9e1b32] shadow-xs group-hover:scale-110 group-hover:bg-pink-200/80 transition-all">
+                <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+              </div>
+              <span class="text-xs font-medium text-gray-700 dark:text-neutral-300 group-hover:text-[#9e1b32] transition-colors">Babydoll</span>
+            </button>
+
+            <!-- Círculo 3: Bralete -->
+            <button onclick="filterCategory('Bralete')" class="flex flex-col items-center gap-2 group cursor-pointer flex-shrink-0">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#fae8eb] dark:bg-neutral-800 border border-pink-200/60 dark:border-neutral-700 flex items-center justify-center text-pink-600 shadow-xs group-hover:scale-110 group-hover:bg-pink-200/80 transition-all">
+                <span class="text-2xl">🌸</span>
+              </div>
+              <span class="text-xs font-medium text-gray-700 dark:text-neutral-300 group-hover:text-[#9e1b32] transition-colors">Bralete</span>
+            </button>
+
+            <!-- Círculo 4: Corse -->
+            <button onclick="filterCategory('Corse')" class="flex flex-col items-center gap-2 group cursor-pointer flex-shrink-0">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#fae8eb] dark:bg-neutral-800 border border-pink-200/60 dark:border-neutral-700 flex items-center justify-center text-rose-700 dark:text-rose-400 shadow-xs group-hover:scale-110 group-hover:bg-pink-200/80 transition-all">
+                <span class="text-2xl">⏳</span>
+              </div>
+              <span class="text-xs font-medium text-gray-700 dark:text-neutral-300 group-hover:text-[#9e1b32] transition-colors">Corse</span>
+            </button>
+
+
+            <!-- Círculo 6: Disfraces (Colección Activa) -->
+            <button onclick="filterCategory('Disfraces')" class="flex flex-col items-center gap-2 group cursor-pointer flex-shrink-0">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-rose-100 dark:bg-rose-950/60 border-2 border-rose-300 dark:border-rose-800 flex items-center justify-center text-[#9e1b32] shadow-sm group-hover:scale-110 group-hover:bg-rose-200/80 transition-all">
+                <span class="text-2xl">🎭</span>
+              </div>
+              <span class="text-xs font-bold text-rose-700 dark:text-rose-300 group-hover:text-[#9e1b32] transition-colors">Disfraces</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- Banner Promocional: NUEVO CATÁLOGO 2026 -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+          <!-- Card: NUEVO CATÁLOGO 2026 -->
+          <div 
+            id="promo-card2-container"
+            onclick="filterCategory('Todas')" 
+            class="rounded-2xl p-6 text-center text-white bg-black dark:bg-neutral-900 cursor-pointer hover:opacity-95 transition-all shadow-xs hover:scale-[1.005]" 
+            style="background-color: #000000;"
+          >
+            <h3 id="promo-card2-title" class="brand-font text-3xl sm:text-4xl font-bold tracking-tight">NUEVO</h3>
+            <p id="promo-card2-sub" class="text-[11px] font-bold uppercase tracking-widest mt-1 opacity-90">CATÁLOGO 2026</p>
+          </div>
+        </div>
+
+        <!-- Catálogo de Productos y Filtros "Para ti" -->
+        <div id="catalogo" class="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-12">
+          
+          <!-- Encabezado de Sección con Filtros Pill y Dropdown -->
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
+            <div>
+              <div class="flex items-center gap-2">
+                <h2 class="brand-font text-2xl sm:text-3xl font-bold text-neutral-900 dark:text-white">Para ti</h2>
+                <span id="active-collection-badge" class="text-xs bg-rose-100 dark:bg-rose-950/70 text-[#9e1b32] dark:text-rose-300 font-bold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-xs border border-rose-200 dark:border-rose-900/60">
+                  <span class="w-2 h-2 rounded-full bg-[#9e1b32] animate-pulse"></span>
+                  <span>Colección Activa: <strong id="active-collection-name" class="uppercase tracking-wider">CATÁLOGO COMPLETO</strong></span>
+                </span>
+              </div>
+              
+              <!-- Píldoras de Filtro: Todo, Bailarinas, Babydoll, Bralete, Corse, Disfraces -->
+              <div class="flex items-center gap-2 mt-3 overflow-x-auto no-scrollbar py-1 px-0.5 scroll-smooth" id="category-pills">
+                <button 
+                  onclick="filterCategory('Todas')" 
+                  class="category-btn active px-4 py-1.5 rounded-full text-xs font-semibold transition-all whitespace-nowrap bg-black text-white shadow-xs cursor-pointer"
+                  data-cat="Todas"
+                >
+                  Todo el Catálogo
+                </button>
+                <button 
+                  onclick="filterCategory('Bailarinas')" 
+                  class="category-btn px-4 py-1.5 rounded-full text-xs font-medium border border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 hover:border-gray-400 transition-all whitespace-nowrap cursor-pointer flex items-center gap-1.5"
+                  data-cat="Bailarinas"
+                >
+                  <span>🩰</span>
+                  <span>Bailarinas</span>
+                </button>
+                <button 
+                  onclick="filterCategory('Babydoll')" 
+                  class="category-btn px-4 py-1.5 rounded-full text-xs font-medium border border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 hover:border-gray-400 transition-all whitespace-nowrap cursor-pointer flex items-center gap-1.5"
+                  data-cat="Babydoll"
+                >
+                  <span>✨</span>
+                  <span>Babydoll</span>
+                </button>
+                <button 
+                  onclick="filterCategory('Bralete')" 
+                  class="category-btn px-4 py-1.5 rounded-full text-xs font-medium border border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 hover:border-gray-400 transition-all whitespace-nowrap cursor-pointer flex items-center gap-1.5"
+                  data-cat="Bralete"
+                >
+                  <span>🌸</span>
+                  <span>Bralete</span>
+                </button>
+                <button 
+                  onclick="filterCategory('Corse')" 
+                  class="category-btn px-4 py-1.5 rounded-full text-xs font-medium border border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 hover:border-gray-400 transition-all whitespace-nowrap cursor-pointer flex items-center gap-1.5"
+                  data-cat="Corse"
+                >
+                  <span>⏳</span>
+                  <span>Corse</span>
+                </button>
+                <button 
+                  onclick="filterCategory('Disfraces')" 
+                  class="category-btn px-4 py-1.5 rounded-full text-xs font-bold border border-rose-300 dark:border-rose-900 bg-rose-50/70 dark:bg-rose-950/40 text-rose-700 dark:text-rose-300 hover:border-rose-400 transition-all whitespace-nowrap flex items-center gap-1.5 cursor-pointer shadow-xs"
+                  data-cat="Disfraces"
+                >
+                  <span>🎭</span>
+                  <span>Disfraces</span>
+                  <span class="text-[9px] bg-[#9e1b32] text-white px-1.5 py-0.2 rounded-full font-extrabold uppercase">Top</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Selector a la derecha: Más vendidos ⌵ -->
+            <div class="flex items-center gap-2 self-start sm:self-end text-xs">
+              <span class="text-gray-400 hidden sm:inline">Ordenar:</span>
+              <select id="sort-select" onchange="handleSortChange(this.value)" class="bg-white dark:bg-neutral-900 border border-gray-200 dark:border-neutral-700 rounded-lg px-3 py-1.5 text-xs text-gray-700 dark:text-neutral-300 focus:outline-none focus:ring-1 focus:ring-[#9e1b32] shadow-xs cursor-pointer">
+                <option value="featured">Más vendidos</option>
+                <option value="price-asc">Precio: Menor a Mayor</option>
+                <option value="price-desc">Precio: Mayor a Menor</option>
+                <option value="discount">Mayor Descuento</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Grid de Fichas de Producto -->
+          <div id="products-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+            <!-- Se puebla dinámicamente con JavaScript -->
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ==================================================================
+           SECCIÓN D: ASISTENTE IA DE TALLAS & RECOMENDADOR ANATÓMICO
+           #shopify-section-template--15174892814451__8915ebaf-81b6-46c6-b9c5-4821d036962c
+           ================================================================== -->
+      <section id="shopify-section-template--15174892814451__8915ebaf-81b6-46c6-b9c5-4821d036962c" class="shopify-section t4s-featured-collections max-w-7xl mx-auto px-4 sm:px-6 py-4">
+        <div 
+          class="rounded-2xl p-5 sm:p-6 border border-pink-200/60 dark:border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs" 
+          style="background-color: #fcecef;"
+        >
+          <div class="flex items-center gap-4 text-center sm:text-left">
+            <div id="ai-banner-icon-bg" class="w-12 h-12 rounded-xl flex items-center justify-center text-white shadow-xs flex-shrink-0" style="background-color: #9e1b32;">
+              <i data-lucide="sparkles" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 id="ai-banner-title" class="brand-font text-base sm:text-lg font-bold text-neutral-900">
+                Asistente de Tallas Dulce Secreto
+              </h3>
+              <p id="ai-banner-desc" class="text-xs text-neutral-600 mt-0.5">
+                Dinos tu busto, bajo busto, cintura y cadera y te recomendamos la talla perfecta en segundos. Disponible en cada producto.
+              </p>
+            </div>
+          </div>
+
+          <button 
+            onclick="openAIAssistantModal()" 
+            id="ai-banner-btn"
+            class="px-5 py-2.5 rounded-full bg-black hover:bg-neutral-800 text-white text-xs font-semibold whitespace-nowrap shadow-xs transition-colors"
+          >
+            Probar ahora
+          </button>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           SECCIÓN E: BENEFICIOS DE ENVÍO Y PAGO SEGURO (t4s-shipping)
+           #shopify-section-template--15174892814451__164620932069107a3a
+           (Contra Entrega, Envíos Seguros, Discreción y Asesoría VIP)
+           ================================================================== -->
+      <section id="shopify-section-template--15174892814451__164620932069107a3a" class="shopify-section t4s-shipping max-w-7xl mx-auto px-4 sm:px-6 py-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Beneficio 1: Envíos Seguros Nacionales -->
+          <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-gray-100 dark:border-neutral-800 shadow-xs hover:border-rose-200 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-[#fae8eb] dark:bg-neutral-800 flex items-center justify-center text-[#9e1b32] flex-shrink-0">
+              <i data-lucide="truck" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-xs uppercase tracking-wider text-gray-900 dark:text-white">Envíos a Toda Colombia</h4>
+              <p class="text-xs text-gray-500 dark:text-neutral-400 mt-1">Despachos rápidos y asegurados con empaque 100% confidencial.</p>
+            </div>
+          </div>
+
+          <!-- Beneficio 2: Pago Contra Entrega -->
+          <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-gray-100 dark:border-neutral-800 shadow-xs hover:border-rose-200 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-[#fae8eb] dark:bg-neutral-800 flex items-center justify-center text-[#9e1b32] flex-shrink-0">
+              <i data-lucide="badge-dollar-sign" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-xs uppercase tracking-wider text-gray-900 dark:text-white">Pago Contra Entrega</h4>
+              <p class="text-xs text-gray-500 dark:text-neutral-400 mt-1">Pagas en efectivo al recibir tu paquete en la puerta de tu casa.</p>
+            </div>
+          </div>
+
+          <!-- Beneficio 3: Empaque 100% Discreto -->
+          <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-gray-100 dark:border-neutral-800 shadow-xs hover:border-rose-200 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-[#fae8eb] dark:bg-neutral-800 flex items-center justify-center text-[#9e1b32] flex-shrink-0">
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-xs uppercase tracking-wider text-gray-900 dark:text-white">Empaque 100% Discreto</h4>
+              <p class="text-xs text-gray-500 dark:text-neutral-400 mt-1">Cajas seguras y selladas sin logos ni descripciones de contenido.</p>
+            </div>
+          </div>
+
+          <!-- Beneficio 4: Asesoría VIP WhatsApp -->
+          <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-gray-100 dark:border-neutral-800 shadow-xs hover:border-emerald-200 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 flex items-center justify-center flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-6 h-6">
+                <path fill="#25D366" d="M24 4C12.95 4 4 12.95 4 24c0 3.53 1 6.94 2.91 9.94L4 44l10.33-2.85A19.92 19.92 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4z"/>
+                <path fill="#ffffff" fill-rule="evenodd" clip-rule="evenodd" d="M19.64 14.5c-.38-.85-.78-.87-1.14-.88-.3-.01-.64-.01-.98-.01-.34 0-.9.13-1.37.64-.47.51-1.8 1.76-1.8 4.29s1.84 4.97 2.1 5.31c.25.34 3.56 5.66 8.78 7.74 4.34 1.73 5.22 1.38 6.16 1.29.94-.09 3.03-1.24 3.46-2.44.43-1.2.43-2.23.3-2.44-.13-.21-.47-.34-.98-.6-.52-.25-3.03-1.5-3.5-1.67-.47-.17-.81-.25-1.16.26-.34.51-1.33 1.67-1.63 2.01-.3.34-.6.39-1.12.13-.51-.26-2.17-.8-4.13-2.55-1.53-1.36-2.56-3.05-2.86-3.57-.3-.51-.03-.79.22-1.05.23-.23.52-.6.77-.9.26-.3.34-.51.51-.86.17-.34.09-.64-.04-.9-.13-.25-1.12-2.77-1.57-3.79z"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-bold text-xs uppercase tracking-wider text-gray-900 dark:text-white">Asesoría VIP 24/7</h4>
+              <p class="text-xs text-gray-500 dark:text-neutral-400 mt-1">Atención personalizada con DULCE y PECADO en tallas y despachos.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- --------------------------------------------------------------------
+         4. PIE DE PÁGINA (t4s-footer)
+         #shopify-section-footer + #shopify-section-bottom-bar
+         (Contacto, Redes Sociales, Enlaces, Métodos de Pago y Portal Admin)
+         -------------------------------------------------------------------- -->
+    <footer id="t4s-footer" class="border-t border-gray-100 dark:border-neutral-800 mt-10 bg-white dark:bg-neutral-900 text-xs">
+      
+      <!-- Sección Principal del Footer -->
+      <section id="shopify-section-footer" class="shopify-section t4s-section-footer max-w-7xl mx-auto px-4 sm:px-6 pt-12 pb-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        
+        <!-- Columna 1: Marca & Bio -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2">
+            <div class="w-7 h-7 rounded-full bg-[#9e1b32] flex items-center justify-center text-white">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+            </div>
+            <span class="footer-brand-title brand-font text-xl font-black text-neutral-900 dark:text-white tracking-tight">DULCE SECRETO</span>
+          </div>
+          <p id="footer-bio-display" class="text-gray-500 dark:text-neutral-400 text-[11px] leading-relaxed">
+            Boutique colombiana especializada en lencería de lujo, babydolls, corsés, bralettes, disfraces y bailarinas finas para celebrar tu sensualidad con total confianza.
+          </p>
+          <div class="flex items-center gap-3 pt-1 text-gray-400">
+            <span class="text-[10px] font-semibold text-neutral-700 dark:text-neutral-300">Envíos a toda Colombia</span>
+          </div>
+        </div>
+
+        <!-- Columna 2: Líneas de Atención Directa -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-gray-900 dark:text-white uppercase tracking-wider text-[11px]">Líneas de Atención</h4>
+          <ul class="space-y-1.5 text-gray-500 dark:text-neutral-400 text-[11px]">
+            <li><span id="footer-agent1-display">DULCE (Pedidos y envíos): <strong>+57 313 239 3554</strong></span></li>
+            <li><span id="footer-agent2-display">PECADO (Atención general y consultas): <strong>+57 311 882 1629</strong></span></li>
+            <li><span id="footer-shipping-display">Envíos a toda Colombia en 1-4 días hábiles</span></li>
+            <li><span class="text-emerald-600 font-semibold">✓ Horario: Lunes a Sábado 8:00 AM – 8:00 PM</span></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Garantía & Seguridad -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-gray-900 dark:text-white uppercase tracking-wider text-[11px]">Garantía & Confianza</h4>
+          <ul class="space-y-1.5 text-gray-500 dark:text-neutral-400 text-[11px]">
+            <li>✓ Empaque 100% Discreto y sellado</li>
+            <li>✓ Pago Contra Entrega en Bogotá</li>
+            <li>✓ Envíos fuera de Bogotá con Pago Anticipado</li>
+            <li>✓ Transferencias Nequi Oficial</li>
+          </ul>
+        </div>
+
+        <!-- Columna 4: Transparencia & Marco Legal (Colombia) -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-gray-900 dark:text-white uppercase tracking-wider text-[11px]">Transparencia & Legal</h4>
+          <ul class="space-y-1.5 text-gray-500 dark:text-neutral-400 text-[11px]">
+            <li><a href="terminos-y-condiciones.html" class="hover:text-[#9e1b32] hover:underline transition-colors">Términos y Condiciones</a></li>
+            <li><a href="politica-de-privacidad.html" class="hover:text-[#9e1b32] hover:underline transition-colors">Tratamiento de Datos (Ley 1581)</a></li>
+            <li><a href="politica-de-reembolsos.html" class="hover:text-[#9e1b32] hover:underline transition-colors">Garantías, Cambios & Retracto</a></li>
+            <li><a href="politica-de-cookies.html" class="hover:text-[#9e1b32] hover:underline transition-colors">Política de Cookies</a></li>
+          </ul>
+          <div class="pt-1.5 border-t border-gray-100 dark:border-neutral-800 text-[10px] text-gray-400 leading-tight">
+            <strong>DULCE SECRETO BOUTIQUE S.A.S.</strong><br>
+            Bogotá, Colombia<br>
+            PQRs: <a href="mailto:dulcesecreto1497@gmail.com" class="underline hover:text-[#9e1b32]">dulcesecreto1497@gmail.com</a>
+          </div>
+        </div>
+
+        <!-- Columna 4: Modo Administrador (Solo visible cuando inicia sesión el administrador) -->
+        <div id="footer-admin-col" class="hidden space-y-2">
+          <div class="flex items-center gap-1.5">
+            <i data-lucide="crown" class="w-4 h-4 text-amber-500"></i>
+            <h4 class="font-bold text-gray-900 dark:text-white uppercase tracking-wider text-[11px]">Modo Administrador</h4>
+          </div>
+          <p class="text-[11px] text-gray-500 dark:text-neutral-400">
+            Sesión maestra activa (<strong class="text-rose-500">dulcesecreto1497@gmail.com</strong>).
+          </p>
+          <div class="flex flex-col gap-2 pt-1">
+            <a href="admin.html" class="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-gradient-to-r from-amber-600 to-rose-700 text-white text-xs font-semibold hover:opacity-90 transition-opacity shadow-sm">
+              <i data-lucide="layout-dashboard" class="w-3.5 h-3.5"></i>
+              <span>Abrir Panel de Control</span>
+            </a>
+            <button onclick="logoutAdminStore()" class="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 text-xs font-semibold hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-950/40 transition-colors cursor-pointer">
+              <i data-lucide="log-out" class="w-3.5 h-3.5"></i>
+              <span>Cerrar Sesión</span>
+            </button>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Barra Inferior de Copyright & Métodos de Pago -->
+      <section id="shopify-section-bottom-bar" class="shopify-section t4s-section-bottom-bar border-t border-gray-100 dark:border-neutral-800 py-4 px-4 sm:px-6">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between text-[11px] text-gray-500 dark:text-neutral-400 gap-3">
+          <div class="space-y-1">
+            <p>&copy; 2026 <span class="footer-brand-title font-bold text-gray-900 dark:text-white">DULCE SECRETO BOUTIQUE S.A.S.</span> Todos los derechos reservados.
+              <button onclick="openAdminLoginModal()" aria-label="Acceso al panel administrativo" class="inline-flex items-center text-gray-300 dark:text-neutral-700 hover:text-[#9e1b32] transition-colors ml-1 cursor-pointer">
+                <i data-lucide="lock" class="w-2.5 h-2.5" aria-hidden="true"></i>
+              </button>
+            </p>
+            <div class="flex items-center gap-2 text-[10px] text-gray-400 dark:text-neutral-500 flex-wrap">
+              <a href="terminos-y-condiciones.html" class="hover:text-[#9e1b32] underline">Términos y Condiciones</a>
+              <span>·</span>
+              <a href="politica-de-privacidad.html" class="hover:text-[#9e1b32] underline">Privacidad</a>
+              <span>·</span>
+              <a href="politica-de-reembolsos.html" class="hover:text-[#9e1b32] underline">Reembolsos & Retracto</a>
+              <span>·</span>
+              <a href="politica-de-cookies.html" class="hover:text-[#9e1b32] underline">Cookies</a>
+            </div>
+          </div>
+            <button onclick="openAdminLoginModal()" class="inline-flex items-center text-gray-300 dark:text-neutral-700 hover:text-[#9e1b32] transition-colors ml-2 cursor-pointer" title="Acceso Administrativo">
+              <i data-lucide="lock" class="w-2.5 h-2.5"></i>
+            </button>
+          </p>
+          
+          <!-- Badges de Pasarelas de Pago -->
+          <div class="flex items-center gap-2 flex-wrap text-[10px] font-bold">
+            <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-neutral-800 text-gray-700 dark:text-neutral-300">Nequi</span>
+            <span class="px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">Contra Entrega</span>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+
+  </div>
+
+  <!-- --------------------------------------------------------------------
+       5. BARRA MÓVIL INFERIOR (shopify-section-toolbar_mobile)
+       (Inicio, Catálogo, Tallas IA, Bolsa y Modo Administrador)
+       -------------------------------------------------------------------- -->
+  <nav id="shopify-section-toolbar_mobile" aria-label="Navegación móvil inferior" class="shopify-section t4s-toolbar-mobile sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-neutral-900/95 backdrop-blur-md border-t border-gray-100 dark:border-neutral-800 flex items-center justify-around py-2 px-1 text-[10px] text-gray-500 shadow-lg" style="padding-bottom: max(0.5rem, env(safe-area-inset-bottom, 0.5rem));">
+    <a href="index.html" class="flex flex-col items-center gap-0.5 text-[#9e1b32] font-bold p-1">
+      <i data-lucide="home" class="w-4 h-4"></i>
+      <span>Inicio</span>
+    </a>
+    <a href="#catalogo" class="flex flex-col items-center gap-0.5 hover:text-gray-900 dark:hover:text-white p-1">
+      <i data-lucide="grid" class="w-4 h-4"></i>
+      <span>Catálogo</span>
+    </a>
+    <button onclick="openAIAssistantModal()" aria-label="Abrir asistente de tallas IA" class="flex flex-col items-center gap-0.5 hover:text-gray-900 dark:hover:text-white p-1 cursor-pointer">
+      <i data-lucide="sparkles" class="w-4 h-4 text-amber-500"></i>
+      <span>Tallas IA</span>
+    </button>
+    <button onclick="toggleCartDrawer(true)" aria-label="Ver bolsa de compras" class="relative flex flex-col items-center gap-0.5 hover:text-gray-900 dark:hover:text-white p-1 cursor-pointer">
+      <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+      <span id="mobile-cart-badge" class="cart-badge-count hidden absolute -top-0.5 -right-0.5 bg-[#9e1b32] text-white font-bold text-[9px] w-4 h-4 rounded-full flex items-center justify-center">0</span>
+      <span>Bolsa</span>
+    </button>
+    <!-- Acceso Admin móvil (Solo visible cuando inicia sesión el administrador) -->
+    <div id="mobile-admin-item" class="hidden">
+      <a href="admin.html" aria-label="Panel administrativo" class="flex flex-col items-center gap-0.5 text-amber-500 font-bold p-1">
+        <i data-lucide="crown" class="w-4 h-4"></i>
+        <span>Admin</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- --------------------------------------------------------------------
+       6. BOTÓN FLOTANTE VIP DE WHATSAPP MULTI-AGENTE (dulceSecretoWhatsappRoot)
+       -------------------------------------------------------------------- -->
+  <div id="dulceSecretoWhatsappRoot" class="t4s-whatsapp-wrapper">
+    <div id="dulceSecretoVipWhatsappRoot" class="fixed bottom-20 sm:bottom-6 right-3 sm:right-6 z-40 flex flex-col items-end">
+      
+      <!-- Menú Desplegable Multi-Agente (DULCE & PECADO) -->
+      <div 
+        id="whatsapp-agents-menu" 
+        class="hidden mb-3 w-72 bg-white dark:bg-neutral-900 rounded-2xl shadow-2xl border border-gray-200 dark:border-neutral-800 p-3 text-xs space-y-2 animate-in fade-in slide-in-from-bottom-3 duration-200"
+      >
+        <div class="flex items-center justify-between pb-2 border-b border-gray-100 dark:border-neutral-800">
+          <div class="flex items-center gap-1.5 font-bold text-gray-900 dark:text-white">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+            <span>Asesoras Dulce Secreto</span>
+          </div>
+          <span class="text-[10px] text-emerald-600 font-semibold">En línea</span>
+        </div>
+
+        <!-- Agente 1: DULCE -->
+        <button 
+          id="wa-agent1-btn"
+          onclick="triggerConfiguredAgent(1)" 
+          class="w-full flex items-center gap-2.5 p-2 rounded-xl hover:bg-gray-50 dark:hover:bg-neutral-800 text-left transition-colors border border-transparent hover:border-gray-200"
+        >
+          <div class="w-8 h-8 rounded-full bg-[#9e1b32] text-white flex items-center justify-center font-bold text-xs shadow-xs">
+            1
+          </div>
+          <div class="flex-1 min-w-0">
+            <p id="wa-agent1-title" class="font-bold text-gray-900 dark:text-white">DULCE &middot; Pedidos y Envíos</p>
+            <p id="wa-agent1-phone" class="text-[10px] text-gray-500">+57 313 239 3554</p>
+          </div>
+          <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+        </button>
+
+        <!-- Agente 2: PECADO -->
+        <button 
+          id="wa-agent2-btn"
+          onclick="triggerConfiguredAgent(2)" 
+          class="w-full flex items-center gap-2.5 p-2 rounded-xl hover:bg-gray-50 dark:hover:bg-neutral-800 text-left transition-colors border border-transparent hover:border-gray-200"
+        >
+          <div class="w-8 h-8 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-xs shadow-xs">
+            2
+          </div>
+          <div class="flex-1 min-w-0">
+            <p id="wa-agent2-title" class="font-bold text-gray-900 dark:text-white">PECADO &middot; Atención General & Consultas</p>
+            <p id="wa-agent2-phone" class="text-[10px] text-gray-500">+57 311 882 1629</p>
+          </div>
+          <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400"></i>
+        </button>
+      </div>
+
+      <!-- Botón Scroll to Top (Volver arriba) -->
+      <button 
+        id="btn-scroll-to-top"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" 
+        class="mb-2 w-10 h-10 rounded-full bg-black/75 hover:bg-[#9e1b32] text-white/90 hover:text-white shadow-xl border border-white/20 hover:border-white/50 flex items-center justify-center transition-all duration-300 opacity-0 pointer-events-none translate-y-2 cursor-pointer backdrop-blur-md"
+        aria-label="Volver arriba"
+        title="Volver arriba"
+      >
+        <i data-lucide="chevron-up" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Botón Flotante Oficial de WhatsApp (Estilo Dulce Secreto / Logo Real Oficial) -->
+      <button 
+        id="btn-floating-whatsapp"
+        onclick="toggleWhatsAppMenu()" 
+        class="group flex items-center gap-2 pl-2 pr-4 py-1.5 rounded-full bg-[#111b21] hover:bg-[#1f2c34] text-white shadow-2xl border border-[#25D366]/40 hover:border-[#25D366] transition-all duration-300 hover:scale-105 cursor-pointer backdrop-blur-md"
+        title="Atención por WhatsApp"
+        style="box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 16px rgba(37, 211, 102, 0.3);"
+      >
+        <!-- Logo Oficial y Auténtico de WhatsApp (Burbuja Verde #25D366 y Teléfono Blanco) -->
+        <div class="relative w-10 h-10 flex items-center justify-center flex-shrink-0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-10 h-10 filter drop-shadow-sm transition-transform group-hover:scale-110">
+            <path fill="#25D366" d="M24 4C12.95 4 4 12.95 4 24c0 3.53 1 6.94 2.91 9.94L4 44l10.33-2.85A19.92 19.92 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4z"/>
+            <path fill="#ffffff" fill-rule="evenodd" clip-rule="evenodd" d="M19.64 14.5c-.38-.85-.78-.87-1.14-.88-.3-.01-.64-.01-.98-.01-.34 0-.9.13-1.37.64-.47.51-1.8 1.76-1.8 4.29s1.84 4.97 2.1 5.31c.25.34 3.56 5.66 8.78 7.74 4.34 1.73 5.22 1.38 6.16 1.29.94-.09 3.03-1.24 3.46-2.44.43-1.2.43-2.23.3-2.44-.13-.21-.47-.34-.98-.6-.52-.25-3.03-1.5-3.5-1.67-.47-.17-.81-.25-1.16.26-.34.51-1.33 1.67-1.63 2.01-.3.34-.6.39-1.12.13-.51-.26-2.17-.8-4.13-2.55-1.53-1.36-2.56-3.05-2.86-3.57-.3-.51-.03-.79.22-1.05.23-.23.52-.6.77-.9.26-.3.34-.51.51-.86.17-.34.09-.64-.04-.9-.13-.25-1.12-2.77-1.57-3.79z"/>
+          </svg>
+          <span class="absolute top-0 right-0 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-[#111b21] animate-ping"></span>
+          <span class="absolute top-0 right-0 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-[#111b21]"></span>
+        </div>
+        <div class="flex flex-col text-left leading-tight">
+          <span class="text-[9px] uppercase tracking-wider text-emerald-400 font-bold hidden sm:inline">Asesoría VIP</span>
+          <span class="text-xs sm:text-sm font-bold text-white tracking-wide">WhatsApp</span>
+        </div>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       7. MODALES DE SISTEMA: ZOOM, CARRITO, CHECKOUT, IA & ÉXITO
+       ====================================================================== -->
+
+  <!-- Modal de Vista Rápida & Zoom HD -->
+  <div id="quick-view-modal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm flex items-center justify-center p-2.5 sm:p-4">
+    <div class="relative bg-white dark:bg-neutral-900 rounded-2xl max-w-4xl w-full max-h-[92vh] flex flex-col overflow-hidden shadow-2xl border border-gray-200 dark:border-neutral-800 my-auto sm:my-8 animate-in fade-in zoom-in-95 duration-200">
+      <button 
+        onclick="closeQuickViewModal()" 
+        aria-label="Cerrar vista rápida"
+        class="absolute top-3 right-3 sm:top-4 sm:right-4 z-30 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-black/60 text-white flex items-center justify-center hover:bg-black transition-colors cursor-pointer"
+      >
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+      <div class="overflow-y-auto flex-1 p-3.5 sm:p-6" id="quick-view-content-wrapper">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6" id="quick-view-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrito Lateral (Slide-over Drawer) -->
+  <div id="cart-backdrop" onclick="toggleCartDrawer(false)" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-xs transition-opacity"></div>
+  
+  <div 
+    id="cart-drawer" 
+    class="fixed top-0 right-0 z-50 h-full w-full max-w-md bg-white dark:bg-neutral-900 shadow-2xl border-l border-gray-200 dark:border-neutral-800 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col"
+  >
+    <div class="p-4 border-b border-gray-100 dark:border-neutral-800 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <i data-lucide="shopping-bag" class="w-5 h-5 text-[#9e1b32]"></i>
+        <h3 class="font-bold text-base text-gray-900 dark:text-white">Bolsa de Compras</h3>
+      </div>
+      <button onclick="toggleCartDrawer(false)" aria-label="Cerrar bolsa de compras" class="p-1 rounded-full text-gray-400 focus-visible:ring-2 focus-visible:ring-[#9e1b32] focus-visible:outline-none hover:text-gray-900 dark:hover:text-white transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- Garantía de Confidencialidad y Envíos -->
+    <div class="px-4 py-2.5 bg-[#fae8eb]/50 dark:bg-neutral-800 border-b border-gray-100 dark:border-neutral-800 flex items-center justify-between text-xs text-neutral-800 dark:text-neutral-200">
+      <span class="flex items-center gap-1.5 font-medium">
+        <i data-lucide="lock" class="w-3.5 h-3.5 text-[#9e1b32]"></i>
+        <span id="shipping-progress-text">Empaque 100% discreto y confidencial</span>
+      </span>
+      <span class="text-[11px] font-bold text-[#9e1b32] dark:text-rose-400">Tarifa $ 12.000</span>
+    </div>
+    <div class="hidden">
+      <div id="shipping-progress-bar"></div>
+    </div>
+
+    <div class="flex-1 overflow-y-auto p-4 space-y-3" id="cart-items-container"></div>
+    <div id="cart-cross-sell" class="px-4 pb-2"></div>
+
+    <div class="p-4 border-t border-gray-100 dark:border-neutral-800 space-y-3 bg-gray-50/50 dark:bg-neutral-900">
+      <div class="space-y-1 text-xs">
+        <div class="flex justify-between text-gray-500 dark:text-neutral-400">
+          <span>Subtotal</span>
+          <span id="cart-subtotal" class="font-semibold text-gray-900 dark:text-white">$ 0</span>
+        </div>
+        <div class="flex justify-between text-gray-500 dark:text-neutral-400">
+          <span>Envío Nacional</span>
+          <span id="cart-shipping" class="font-semibold text-gray-900 dark:text-white">Calculando...</span>
+        </div>
+        <div class="flex justify-between text-sm font-extrabold text-gray-900 dark:text-white pt-1 border-t border-gray-200 dark:border-neutral-800">
+          <span>Total a Pagar</span>
+          <span id="cart-total" class="text-[#9e1b32] font-bold">$ 0</span>
+        </div>
+      </div>
+
+      <button 
+        onclick="openCheckoutModal()" 
+        class="w-full py-3 rounded-full bg-[#9e1b32] hover:bg-[#85162a] text-white font-bold text-sm shadow-lg flex items-center justify-center gap-2 transition-colors cursor-pointer"
+      >
+        <span>Proceder al Pago Seguro</span>
+        <i data-lucide="lock" class="w-4 h-4"></i>
+      </button>
+
+      <!-- Confirmar Pedido Directo por WhatsApp con DULCE -->
+      <button 
+        onclick="generarMensajeWhatsAppCarrito()" 
+        class="w-full py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md flex items-center justify-center gap-2 transition-colors cursor-pointer"
+        title="Enviar pedido directamente a WhatsApp con DULCE"
+      >
+        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.076-1.785-.399-1.205-.498-2.002-1.636-2.18-1.859-.178-.222-1.111-1.48-1.111-2.822 0-1.342.701-2.002.951-2.269.249-.267.543-.334.724-.334.181 0 .362.002.52.01.17.009.397-.064.62.472.227.546.772 1.884.839 2.022.068.138.113.3.023.48-.091.181-.136.294-.271.455-.136.16-.287.357-.41.479-.136.136-.278.284-.12.554.159.271.706 1.164 1.516 1.886 1.042.928 1.92 1.215 2.192 1.35.271.136.43.114.59-.068.158-.182.679-.792.86-1.064.181-.272.362-.227.61-.136.249.091 1.583.746 1.855.882.272.136.452.204.52.317.068.114.068.657-.076 1.062z"/>
+        </svg>
+        <span>Confirmar Pedido por WhatsApp</span>
+      </button>
+
+      <div class="flex items-center justify-center gap-3 text-[10px] text-gray-400 pt-1">
+        <span>✓ Contra Entrega</span>
+        <span>✓ Nequi</span>
+        <span>✓ Empaque Discreto</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Asistente IA de Tallas & Chatbot -->
+  <div id="ai-modal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm flex items-center justify-center p-2.5 sm:p-4">
+    <div class="relative bg-white dark:bg-neutral-900 rounded-2xl max-w-xl w-full max-h-[92vh] flex flex-col overflow-hidden shadow-2xl border border-gray-200 dark:border-neutral-800 my-auto sm:my-6 animate-in fade-in zoom-in-95 duration-200">
+      
+      <div class="p-3.5 sm:p-4 bg-gradient-to-r from-[#9e1b32] to-[#c23b53] text-white flex items-center justify-between flex-shrink-0">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
+            <i data-lucide="sparkles" class="w-4 h-4 text-white"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-xs sm:text-sm">Asistente de Tallas & Estilo "Dulce Secreto"</h3>
+            <p class="text-[9.5px] sm:text-[10px] text-white/80">Recomendador inteligente de copa, banda y silueta</p>
+          </div>
+        </div>
+        <button onclick="closeAIAssistantModal()" aria-label="Cerrar asistente virtual" class="text-white/80 hover:text-white focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none p-1 rounded-full cursor-pointer">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="flex border-b border-gray-100 dark:border-neutral-800 text-xs font-bold text-center flex-shrink-0">
+        <button onclick="switchAITab('calc')" id="ai-tab-calc" class="flex-1 py-2.5 border-b-2 border-[#9e1b32] text-[#9e1b32] bg-rose-50/50 dark:bg-neutral-800 flex items-center justify-center gap-1.5 cursor-pointer">
+          <i data-lucide="ruler" class="w-3.5 h-3.5"></i> Calculadora Anatómica
+        </button>
+        <button onclick="switchAITab('chat')" id="ai-tab-chat" class="flex-1 py-2.5 border-b-2 border-transparent text-gray-500 hover:text-gray-900 dark:hover:text-white flex items-center justify-center gap-1.5 cursor-pointer">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> Chatbot Asesor
+        </button>
+      </div>
+
+      <!-- Tab: Calculadora de Talla -->
+      <div id="ai-content-calc" class="overflow-y-auto flex-1 p-4 sm:p-6 space-y-4">
+        <p class="text-xs text-gray-600 dark:text-neutral-300 leading-relaxed">
+          Ingresa tus medidas con una cinta métrica ajustada pero sin apretar (en centímetros) para determinar tu copa y talla exacta:
+        </p>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">1. Busto (cm)</label>
+            <input type="number" id="calc-bust" value="92" min="60" max="150" class="w-full p-2.5 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-xs text-gray-900 dark:text-white focus:ring-2 focus:ring-[#9e1b32] focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">2. Bajo Busto (cm)</label>
+            <input type="number" id="calc-underbust" value="75" min="55" max="140" class="w-full p-2.5 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-xs text-gray-900 dark:text-white focus:ring-2 focus:ring-[#9e1b32] focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">3. Cintura (cm)</label>
+            <input type="number" id="calc-waist" value="68" min="50" max="140" class="w-full p-2.5 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-xs text-gray-900 dark:text-white focus:ring-2 focus:ring-[#9e1b32] focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">4. Cadera (cm)</label>
+            <input type="number" id="calc-hip" value="96" min="60" max="160" class="w-full p-2.5 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-xs text-gray-900 dark:text-white focus:ring-2 focus:ring-[#9e1b32] focus:outline-none" />
+          </div>
+        </div>
+
+        <button onclick="runSizeCalculation()" class="w-full py-2.5 rounded-xl bg-[#9e1b32] hover:bg-[#85162a] text-white font-bold text-xs shadow-md flex items-center justify-center gap-1.5 transition-colors">
+          <i data-lucide="sparkles" class="w-4 h-4"></i>
+          <span>Calcular Talla Ideal</span>
+        </button>
+
+        <div id="calc-result-box" class="hidden p-4 rounded-xl bg-pink-50 dark:bg-neutral-800 border border-rose-300 dark:border-neutral-700 space-y-2 text-xs">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-gray-800 dark:text-white">Talla de Bra / Bralette:</span>
+            <span id="result-bra-size" class="text-base font-extrabold text-[#9e1b32] px-3 py-0.5 rounded-full bg-white dark:bg-neutral-900 border border-rose-400">34B</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-gray-800 dark:text-white">Talla de Panty / Lencería:</span>
+            <span id="result-bottom-size" class="text-base font-extrabold text-[#9e1b32] px-3 py-0.5 rounded-full bg-white dark:bg-neutral-900 border border-rose-400">M</span>
+          </div>
+          <p id="result-explanation" class="text-[11px] text-gray-600 dark:text-neutral-300 pt-2 border-t border-pink-200 dark:border-neutral-700"></p>
+        </div>
+      </div>
+
+      <!-- Tab: Chatbot -->
+      <div id="ai-content-chat" class="hidden flex flex-col h-96">
+        <div class="flex-1 overflow-y-auto p-4 space-y-3" id="ai-chat-messages"></div>
+
+        <div class="px-4 py-2 border-t border-gray-100 dark:border-neutral-800 bg-gray-50 dark:bg-neutral-800 flex gap-1.5 overflow-x-auto no-scrollbar text-[11px]">
+          <button onclick="sendQuickPrompt('¿Cómo calculo mi talla exacta?')" class="px-2.5 py-1 rounded-full bg-white dark:bg-neutral-700 border border-gray-200 dark:border-neutral-600 text-gray-700 dark:text-white whitespace-nowrap">
+            📐 Calcular mi talla
+          </button>
+          <button onclick="sendQuickPrompt('Recomiéndame algo sexy para una noche especial')" class="px-2.5 py-1 rounded-full bg-white dark:bg-neutral-700 border border-gray-200 dark:border-neutral-600 text-gray-700 dark:text-white whitespace-nowrap">
+            🔥 Noche especial
+          </button>
+          <button onclick="sendQuickPrompt('¿Cómo funciona el pago contra entrega?')" class="px-2.5 py-1 rounded-full bg-white dark:bg-neutral-700 border border-gray-200 dark:border-neutral-600 text-gray-700 dark:text-white whitespace-nowrap">
+            📦 Contra entrega
+          </button>
+        </div>
+
+        <div class="p-3 border-t border-gray-100 dark:border-neutral-800 flex gap-2">
+          <input 
+            type="text" 
+            id="ai-user-input" 
+            placeholder="Escribe tu consulta aquí..." 
+            onkeypress="if(event.key === 'Enter') handleUserSendMessage()"
+            class="flex-1 px-3 py-2 rounded-xl border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-xs text-gray-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-[#9e1b32]"
+          />
+          <button onclick="handleUserSendMessage()" class="p-2.5 rounded-xl bg-[#9e1b32] hover:bg-[#85162a] text-white shadow-xs">
+            <i data-lucide="send" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal Híbrido (Contra Entrega & Transferencia) -->
+  <div id="checkout-modal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm flex items-center justify-center p-2.5 sm:p-4">
+    <div class="relative bg-white dark:bg-neutral-900 rounded-2xl max-w-2xl w-full max-h-[94vh] flex flex-col overflow-hidden shadow-2xl border border-gray-200 dark:border-neutral-800 my-auto sm:my-6 animate-in fade-in zoom-in-95 duration-200">
+      
+      <div class="p-3.5 sm:p-4 border-b border-gray-100 dark:border-neutral-800 flex items-center justify-between flex-shrink-0">
+        <div class="flex items-center gap-2">
+          <i data-lucide="shield-check" class="w-5 h-5 text-emerald-500"></i>
+          <h3 class="font-bold text-sm sm:text-base text-gray-900 dark:text-white">Finalizar Pedido — <span class="checkout-brand-title">DULCE SECRETO</span></h3>
+        </div>
+        <button onclick="closeCheckoutModal()" aria-label="Cerrar ventana de pago" class="text-gray-400 hover:text-gray-700 dark:hover:text-white p-1 rounded-full cursor-pointer">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <form onsubmit="processCheckout(event)" class="overflow-y-auto flex-1 p-3.5 sm:p-6 space-y-4 sm:space-y-5">
+        
+        <!-- 1. Selección de Zona de Cobertura / Destino del Pedido -->
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-neutral-400 mb-2">
+            1. Destino del Pedido (Zona de Cobertura):
+          </label>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            <!-- Opción Bogotá -->
+            <button 
+              type="button" 
+              onclick="setDeliveryZone('bogota')" 
+              id="zone-btn-bogota"
+              class="p-3 rounded-xl border-2 border-[#9e1b32] bg-pink-50/70 dark:bg-rose-950/40 text-left transition-all flex items-start gap-2.5 cursor-pointer shadow-xs"
+            >
+              <div class="w-8 h-8 rounded-lg bg-[#9e1b32] text-white flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="map-pin" class="w-4 h-4"></i>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center gap-1.5 flex-wrap">
+                  <span class="font-bold text-xs text-gray-900 dark:text-white">Dentro de Bogotá D.C.</span>
+                  <span class="text-[9px] font-bold bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 px-1.5 py-0.5 rounded">Contra Entrega</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 dark:text-neutral-400 mt-0.5 leading-tight">Pagas en efectivo al recibir o por Nequi</p>
+              </div>
+            </button>
+
+            <!-- Opción Fuera de Bogotá (Nacional) -->
+            <button 
+              type="button" 
+              onclick="setDeliveryZone('nacional')" 
+              id="zone-btn-nacional"
+              class="p-3 rounded-xl border-2 border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 hover:border-gray-300 text-left transition-all flex items-start gap-2.5 cursor-pointer"
+            >
+              <div class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="truck" class="w-4 h-4"></i>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center gap-1.5 flex-wrap">
+                  <span class="font-bold text-xs text-gray-900 dark:text-white">Fuera de Bogotá (Nacional)</span>
+                  <span class="text-[9px] font-bold bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 px-1.5 py-0.5 rounded">Pago Anticipado</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 dark:text-neutral-400 mt-0.5 leading-tight">Flete según transportadora · Pago por Nequi</p>
+              </div>
+            </button>
+          </div>
+
+          <!-- Mensaje explicativo dinámico de la zona -->
+          <div id="zone-policy-banner" class="mt-2.5 p-2.5 rounded-xl bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/50 text-[11px] text-gray-700 dark:text-neutral-300 flex items-start gap-2">
+            <i data-lucide="info" class="w-4 h-4 text-[#9e1b32] shrink-0 mt-0.5"></i>
+            <span id="zone-policy-text">
+              <strong>Entregas dentro de Bogotá D.C.:</strong> Tienes habilitado el <strong>Pago Contra Entrega</strong> (pagas en efectivo al mensajero al recibir) o transferencia Nequi directa.
+            </span>
+          </div>
+        </div>
+
+        <!-- 2. Selección de Método de Pago -->
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-neutral-400 mb-2">
+            2. Selecciona tu Método de Pago:
+          </label>
+          <div class="grid grid-cols-2 gap-3">
+            <button 
+              type="button" 
+              onclick="selectPaymentMethod('cod')" 
+              id="tab-cod"
+              class="p-3 rounded-xl border-2 border-[#9e1b32] bg-pink-50/60 dark:bg-neutral-800 text-[#9e1b32] flex flex-col items-center text-center gap-1 transition-all cursor-pointer relative"
+            >
+              <i data-lucide="truck" class="w-5 h-5"></i>
+              <span class="font-bold text-xs">Pago Contra Entrega</span>
+              <span id="tab-cod-subtitle" class="text-[10px] text-gray-500 dark:text-neutral-400">Pagas en efectivo al recibir</span>
+              <span id="tab-cod-badge" class="hidden text-[8.5px] font-bold bg-rose-100 dark:bg-rose-950/80 text-[#9e1b32] px-1.5 py-0.5 rounded mt-0.5">Solo Bogotá D.C.</span>
+            </button>
+
+            <button 
+              type="button" 
+              onclick="selectPaymentMethod('transfer')" 
+              id="tab-transfer"
+              class="p-3 rounded-xl border-2 border-transparent text-gray-500 dark:text-neutral-400 hover:border-gray-200 dark:hover:border-neutral-700 flex flex-col items-center text-center gap-1 transition-all cursor-pointer relative"
+            >
+              <i data-lucide="smartphone" class="w-5 h-5"></i>
+              <span class="font-bold text-xs">Transferencia Bancaria</span>
+              <span class="text-[10px] text-gray-500 dark:text-neutral-400">Nequi Oficial (Pago Anticipado)</span>
+              <span id="tab-transfer-badge" class="hidden text-[8.5px] font-bold bg-amber-100 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300 px-1.5 py-0.5 rounded mt-0.5">Obligatorio Nacional</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Instrucciones Transferencia -->
+        <div id="transfer-details" class="hidden p-4 rounded-xl bg-gray-50 dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-gray-900 dark:text-white flex items-center gap-1.5">
+              <span>📱</span> Cuenta Oficial Nequi Colombia (Pago Anticipado):
+            </span>
+            <span class="text-[11px] text-emerald-600 font-semibold flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> 100% Verificada
+            </span>
+          </div>
+
+          <div id="transfer-zone-notice" class="p-2 rounded-lg bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-[11px] text-amber-900 dark:text-amber-200">
+            🚚 <strong>Para envíos fuera de Bogotá:</strong> Se despacha previo pago anticipado. El precio y disponibilidad del flete lo define la empresa transportadora (Interrapidísimo / Servientrega / Envía).
+          </div>
+
+          <!-- Nequi Box -->
+          <div id="bank-info-nequi" class="p-3 rounded-lg bg-white dark:bg-neutral-900 border border-rose-200 dark:border-neutral-700 text-xs space-y-1 shadow-xs">
+            <div class="flex justify-between items-center">
+              <span class="text-gray-500 font-medium">Número Nequi:</span>
+              <div class="flex items-center gap-2">
+                <strong id="chk-nequi-num" class="text-sm font-mono text-gray-900 dark:text-white">311 882 1629</strong>
+                <button type="button" onclick="copyToClipboard(document.getElementById('chk-nequi-num').textContent.replace(/\s+/g,''), 'btn-copy-nequi')" id="btn-copy-nequi" class="px-2 py-0.5 rounded bg-gray-100 dark:bg-neutral-800 text-[11px] text-[#9e1b32] font-semibold hover:bg-[#9e1b32] hover:text-white transition-colors cursor-pointer">
+                  Copiar
+                </button>
+              </div>
+            </div>
+            <p id="chk-nequi-holder" class="text-[10px] text-gray-400">Titular: Dulce Secreto Boutique SAS</p>
+          </div>
+
+          <!-- Subir Comprobante -->
+          <div>
+            <label class="block text-xs font-semibold text-gray-800 dark:text-white mb-1">
+              Adjuntar Comprobante de Pago (Captura de pantalla):
+            </label>
+            <div class="border-2 border-dashed border-gray-300 dark:border-neutral-700 rounded-xl p-3 text-center bg-white dark:bg-neutral-900 hover:bg-gray-50 dark:hover:bg-neutral-800 transition-colors">
+              <input type="file" id="voucher-file-input" accept="image/*, .jpg, .jpeg, .png, .webp, .gif, .avif, .heic, .heif, .svg, .bmp, .tiff, image/heic, image/heif, image/avif, image/webp, image/png, image/jpeg" onchange="handleVoucherUpload(event)" class="hidden" />
+              <label for="voucher-file-input" class="cursor-pointer block">
+                <i data-lucide="upload-cloud" class="w-6 h-6 mx-auto text-[#9e1b32] mb-1"></i>
+                <p class="text-xs font-semibold text-gray-900 dark:text-white">Haz clic para subir imagen</p>
+                <p class="text-[10px] text-gray-400">Todos los formatos HD (JPG, PNG, WEBP, HEIC, etc.)</p>
+              </label>
+
+              <div id="voucher-preview-container" class="hidden mt-2 pt-2 border-t border-gray-200 dark:border-neutral-700 flex items-center justify-between gap-2">
+                <div class="flex items-center gap-2">
+                  <img id="voucher-preview-img" class="w-10 h-10 object-cover rounded border" />
+                  <span id="voucher-file-name" class="text-xs text-gray-800 dark:text-white truncate max-w-xs font-medium"></span>
+                </div>
+                <button type="button" onclick="removeVoucher()" class="text-red-500 hover:text-red-700 p-1 text-xs font-bold">
+                  Quitar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instrucciones Contra Entrega -->
+        <div id="cod-details" class="p-3 rounded-xl bg-gray-50 dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 text-xs text-gray-600 dark:text-neutral-300">
+          <p class="flex items-center gap-2 text-gray-900 dark:text-white font-semibold mb-1">
+            <i data-lucide="badge-check" class="w-4 h-4 text-emerald-500"></i>
+            Envío y Pago Contra Entrega (Exclusivo Bogotá D.C.)
+          </p>
+          <p class="text-[11px]">
+            Recibirás tu pedido en una caja 100% sellada y discreta en tu dirección en Bogotá. Pagas en efectivo directamente al mensajero cuando el paquete esté en tus manos.
+          </p>
+        </div>
+
+        <!-- Formulario Datos de Entrega -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-neutral-400">3. Datos de Entrega</h4>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">Nombre Completo *</label>
+              <input type="text" id="checkout-name" required placeholder="Ej: Marcela Gómez" class="w-full p-2.5 sm:p-2 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-sm sm:text-xs text-gray-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-[#9e1b32]" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">WhatsApp / Teléfono *</label>
+              <input type="tel" id="checkout-phone" required placeholder="Ej: 310 123 4567" class="w-full p-2.5 sm:p-2 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-sm sm:text-xs text-gray-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-[#9e1b32]" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">Ciudad o Municipio *</label>
+              <input type="text" id="checkout-city" required value="Bogotá D.C." oninput="handleCityInput(this.value)" placeholder="Ej: Bogotá, Cali, Medellín, Barranquilla..." class="w-full p-2.5 sm:p-2 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-sm sm:text-xs text-gray-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-[#9e1b32]" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">Departamento *</label>
+              <input type="text" id="checkout-department" required value="Bogotá D.C." placeholder="Ej: Cundinamarca, Antioquia, Valle..." class="w-full p-2.5 sm:p-2 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-sm sm:text-xs text-gray-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-[#9e1b32]" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">Dirección de Entrega Exacta *</label>
+            <input type="text" id="checkout-address" required placeholder="Ej: Calle 123 # 45 - 67 Apto 302" class="w-full p-2.5 sm:p-2 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-sm sm:text-xs text-gray-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-[#9e1b32]" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-gray-800 dark:text-neutral-200 mb-1">Notas para la transportadora (Opcional)</label>
+            <input type="text" id="checkout-notes" placeholder="Ej: Dejar en portería, timbrar dos veces..." class="w-full p-2.5 sm:p-2 rounded-lg border border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-sm sm:text-xs text-gray-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-[#9e1b32]" />
+          </div>
+        </div>
+
+        <!-- Resumen de Costos -->
+        <div class="p-3.5 rounded-xl bg-gray-50 dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 space-y-2">
+          <div id="checkout-summary-items" class="divide-y divide-gray-200 dark:divide-neutral-700 max-h-36 overflow-y-auto"></div>
+          
+          <div class="pt-2 border-t border-gray-200 dark:border-neutral-700 text-xs space-y-1">
+            <div class="flex justify-between text-gray-500 dark:text-neutral-400">
+              <span>Subtotal Prendas:</span>
+              <span id="checkout-subtotal" class="font-semibold text-gray-900 dark:text-white">$ 0</span>
+            </div>
+            <div class="flex justify-between text-gray-500 dark:text-neutral-400 items-center">
+              <span>Costo de Envío:</span>
+              <span id="checkout-shipping" class="font-semibold text-gray-900 dark:text-white text-right">$ 12.000</span>
+            </div>
+            <div class="flex justify-between text-sm font-black text-gray-900 dark:text-white pt-1 border-t border-gray-200 dark:border-neutral-700">
+              <span id="checkout-total-label">Total a Liquidar:</span>
+              <div class="text-right">
+                <span id="checkout-total" class="text-[#9e1b32] font-bold">$ 0</span>
+                <span id="checkout-shipping-note" class="block text-[10px] font-normal text-gray-500 dark:text-neutral-400"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botón de Confirmación -->
+        <!-- Consentimiento Informado Obligatorio (Ley 1581 de 2012 y Términos Comerciales) -->
+        <div class="p-3 rounded-xl bg-gray-50 dark:bg-neutral-800/80 border border-gray-200 dark:border-neutral-700 text-[11px] text-gray-600 dark:text-neutral-300 space-y-1.5">
+          <label class="flex items-start gap-2.5 cursor-pointer">
+            <input 
+              type="checkbox" 
+              id="checkout-consent-checkbox" 
+              required 
+              class="mt-0.5 rounded text-[#9e1b32] focus:ring-[#9e1b32] w-4 h-4 cursor-pointer flex-shrink-0" 
+            />
+            <span class="leading-relaxed">
+              Autorizo de manera previa, expresa e informada a <strong>DULCE SECRETO BOUTIQUE S.A.S.</strong> para el tratamiento de mis datos personales de entrega conforme a la 
+              <a href="politica-de-privacidad.html" target="_blank" class="text-[#9e1b32] font-bold underline hover:text-rose-700">Política de Privacidad (Ley 1581 de 2012)</a> 
+              y declaro aceptar los 
+              <a href="terminos-y-condiciones.html" target="_blank" class="text-[#9e1b32] font-bold underline hover:text-rose-700">Términos y Condiciones</a> 
+              y la 
+              <a href="politica-de-reembolsos.html" target="_blank" class="text-[#9e1b32] font-bold underline hover:text-rose-700">Política de Reembolsos</a>.
+            </span>
+          </label>
+        </div>
+
+        <button 
+          type="submit" 
+          aria-label="Confirmar pedido y enviar al WhatsApp oficial"
+          class="w-full py-3.5 rounded-full bg-[#9e1b32] hover:bg-[#85162a] text-white font-extrabold text-sm shadow-xl flex items-center justify-center gap-2 transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#9e1b32] cursor-pointer"
+        >
+          <i data-lucide="send" class="w-4 h-4"></i>
+          <span>Confirmar Pedido y Enviar a WhatsApp Oficial</span>
+        </button>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal de Éxito de Orden -->
+  <div id="order-success-modal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+    <div class="bg-white dark:bg-neutral-900 rounded-2xl max-w-lg w-full p-5 sm:p-6 text-center shadow-2xl border border-gray-200 dark:border-neutral-800 space-y-4 my-6 animate-in zoom-in-95">
+      <div class="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 mx-auto flex items-center justify-center shadow-md">
+        <i data-lucide="check-circle-2" class="w-8 h-8"></i>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-black text-gray-900 dark:text-white brand-font">¡Pedido Registrado con Éxito!</h3>
+        <p class="text-xs text-gray-500 mt-1">
+          Orden: <strong id="success-order-id" class="text-[#9e1b32] text-sm font-mono font-bold">#DS-000000</strong> • 
+          Método: <span id="success-payment-method" class="font-semibold text-gray-900 dark:text-white"></span>
+        </p>
+      </div>
+
+      <!-- Resumen visual con Foto de la Prenda, Talla y Datos de Entrega -->
+      <div class="space-y-1.5 text-left">
+        <p class="text-[11px] font-bold uppercase tracking-wider text-gray-500 dark:text-neutral-400">Prendas Seleccionadas (con Talla y Foto):</p>
+        <div id="success-order-items-preview" class="p-3 rounded-xl bg-gray-50 dark:bg-neutral-800 text-xs space-y-2 max-h-40 overflow-y-auto border border-gray-200 dark:border-neutral-700"></div>
+      </div>
+
+      <div id="success-customer-delivery-preview" class="p-3 rounded-xl bg-rose-50/60 dark:bg-neutral-800 text-xs text-gray-800 dark:text-neutral-200 text-left border border-rose-100 dark:border-neutral-700 space-y-1"></div>
+
+      <div class="p-2.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-left text-xs text-emerald-800 dark:text-emerald-300 space-y-0.5">
+        <p>🔒 <strong>Empaque 100% Discreto:</strong> Sin logos ni marcas exteriores.</p>
+        <p>📲 <strong>Despacho Rápido:</strong> El pedido se ha cargado en WhatsApp con todos los datos, tallas y fotos para inicio de empaque.</p>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-2 pt-1">
+        <a 
+          id="success-whatsapp-btn" 
+          href="#" 
+          target="_blank" 
+          class="flex-1 py-3 px-4 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs flex items-center justify-center gap-2 shadow-lg transition-colors cursor-pointer"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-white">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+          <span>Abrir WhatsApp para Confirmar Despacho</span>
+        </a>
+        <button 
+          type="button" 
+          onclick="copyOrderMessageToClipboard()" 
+          id="btn-copy-order-msg"
+          class="py-3 px-4 rounded-full border border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-800 text-gray-700 dark:text-neutral-200 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
+        >
+          <i data-lucide="copy" class="w-4 h-4"></i>
+          <span>Copiar Pedido</span>
+        </button>
+      </div>
+
+      <button onclick="closeOrderSuccessModal()" class="w-full py-1.5 text-xs font-semibold text-gray-500 hover:text-gray-900 dark:hover:text-white cursor-pointer">
+        Continuar viendo la tienda
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL DE ACCESO AL MODO ADMINISTRADOR (EXCLUSIVO)
+       ====================================================================== -->
+  <div id="admin-login-modal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+    <div class="relative bg-neutral-900 border border-neutral-800 rounded-3xl max-w-md w-full p-6 sm:p-8 text-neutral-100 shadow-2xl space-y-5 animate-in zoom-in-95">
+      
+      <div class="flex items-center justify-between pb-3 border-b border-neutral-800">
+        <div class="flex items-center gap-2.5">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-rose-600 to-amber-500 text-white flex items-center justify-center shadow-md">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-white text-base">Acceso Administrativo</h3>
+            <p class="text-[11px] text-neutral-400 font-mono" id="store-admin-email-display">dulcesecreto1497@gmail.com</p>
+          </div>
+        </div>
+        <button type="button" onclick="closeAdminLoginModal()" class="p-1.5 rounded-lg text-neutral-400 hover:text-white hover:bg-neutral-800 transition-colors cursor-pointer">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Formulario de Acceso -->
+      <form onsubmit="handleStoreAdminLogin(event)" class="space-y-4 text-xs">
+        <div>
+          <div class="flex justify-between items-center mb-1">
+            <label class="block font-semibold text-neutral-300">Correo Electrónico Autorizado:</label>
+            <button 
+              type="button" 
+              onclick="openChangeEmailModalStore()" 
+              class="text-[11px] text-amber-400 hover:text-amber-300 hover:underline flex items-center gap-1 cursor-pointer transition-colors"
+            >
+              <i data-lucide="mail" class="w-3 h-3"></i>
+              <span>¿Cambiar correo?</span>
+            </button>
+          </div>
+          <div class="relative">
+            <input 
+              type="email" 
+              id="store-admin-email" 
+              required 
+              placeholder="dulcesecreto1497@gmail.com"
+              value="dulcesecreto1497@gmail.com"
+              class="w-full pl-9 pr-3 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-rose-500 text-xs font-mono"
+            />
+            <i data-lucide="mail" class="w-4 h-4 text-neutral-500 absolute left-3 top-1/2 -translate-y-1/2"></i>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between items-center mb-1">
+            <label class="block font-semibold text-neutral-300">Contraseña Maestra:</label>
+            <button 
+              type="button" 
+              onclick="openChangePasswordModal()" 
+              class="text-[11px] text-amber-400 hover:text-amber-300 hover:underline flex items-center gap-1 cursor-pointer transition-colors"
+            >
+              <i data-lucide="key" class="w-3 h-3"></i>
+              <span>¿Cambiar contraseña?</span>
+            </button>
+          </div>
+          <div class="relative">
+            <input 
+              type="password" 
+              id="store-admin-pass" 
+              required 
+              placeholder="Ingresa tu contraseña"
+              class="w-full pl-9 pr-10 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-rose-500 text-xs font-mono"
+            />
+            <i data-lucide="lock" class="w-4 h-4 text-neutral-500 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <button 
+              type="button" 
+              onclick="togglePasswordVisibility('store-admin-pass', 'eye-store-pass')" 
+              class="absolute right-2.5 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-white p-1 rounded-md transition-colors cursor-pointer"
+              title="Mostrar / Ocultar contraseña"
+            >
+              <i id="eye-store-pass" data-lucide="eye" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Alerta de Error -->
+        <div id="store-admin-error" class="hidden p-3 rounded-xl bg-red-950/80 border border-red-700 text-red-200 text-xs space-y-1">
+          <p class="font-bold flex items-center gap-1.5">
+            <i data-lucide="octagon-alert" class="w-4 h-4 text-red-400"></i> Acceso Denegado
+          </p>
+          <p id="store-admin-error-text" class="text-[11px]">Credenciales incorrectas.</p>
+        </div>
+
+        <div class="flex items-center justify-end gap-3 pt-2">
+          <button 
+            type="button" 
+            onclick="closeAdminLoginModal()" 
+            class="px-4 py-2.5 rounded-xl border border-neutral-700 bg-neutral-800 hover:bg-neutral-700 text-neutral-300 font-semibold transition-colors cursor-pointer"
+          >
+            Cancelar
+          </button>
+          <button 
+            type="submit" 
+            class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white font-bold transition-all shadow-lg flex items-center gap-2 cursor-pointer"
+          >
+            <i data-lucide="log-in" class="w-4 h-4"></i>
+            <span>Ingresar como Administrador</span>
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL: CAMBIAR CORREO ELECTRÓNICO (TIENDA PÚBLICA)
+       ====================================================================== -->
+  <div id="change-email-modal-store" class="hidden fixed inset-0 z-[60] bg-black/85 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-neutral-900 border border-neutral-800 rounded-3xl max-w-md w-full p-6 sm:p-7 text-neutral-100 shadow-2xl space-y-5 animate-in zoom-in-95">
+      
+      <div class="flex items-center justify-between pb-3 border-b border-neutral-800">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-rose-500/20 text-rose-400 border border-rose-500/30 flex items-center justify-center">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-white text-base">Cambiar Correo de Acceso</h3>
+            <p class="text-[11px] text-neutral-400">Actualiza el correo administrador de la tienda</p>
+          </div>
+        </div>
+        <button type="button" onclick="closeChangeEmailModalStore()" class="p-1.5 rounded-lg text-neutral-400 hover:text-white hover:bg-neutral-800 transition-colors cursor-pointer">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <form onsubmit="handleSaveNewEmailStore(event)" class="space-y-4 text-xs">
+        
+        <!-- Correo Actual -->
+        <div>
+          <label class="block font-semibold text-neutral-300 mb-1">Correo Actual Registrado:</label>
+          <input 
+            type="text" 
+            id="store-current-email-display" 
+            disabled 
+            class="w-full px-3 py-2.5 rounded-xl bg-neutral-950/60 border border-neutral-800 text-neutral-400 text-xs font-mono"
+          />
+        </div>
+
+        <!-- Contraseña para verificar identidad -->
+        <div>
+          <label class="block font-semibold text-neutral-300 mb-1">Contraseña de Administrador (para autorizar el cambio):</label>
+          <div class="relative">
+            <input 
+              type="password" 
+              id="store-change-email-pass" 
+              required 
+              placeholder="Ingresa tu contraseña actual"
+              class="w-full pl-9 pr-10 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-rose-500 text-xs font-mono"
+            />
+            <i data-lucide="lock" class="w-4 h-4 text-neutral-500 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <button 
+              type="button" 
+              onclick="togglePasswordVisibility('store-change-email-pass', 'eye-store-chg-email-pass')" 
+              class="absolute right-2.5 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-white p-1 rounded-md transition-colors cursor-pointer"
+            >
+              <i id="eye-store-chg-email-pass" data-lucide="eye" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Nuevo Correo Electrónico -->
+        <div>
+          <label class="block font-semibold text-neutral-300 mb-1">Nuevo Correo Electrónico:</label>
+          <input 
+            type="email" 
+            id="store-change-new-email" 
+            required 
+            placeholder="nuevo_correo@gmail.com"
+            class="w-full px-3 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-rose-500 text-xs font-mono"
+          />
+        </div>
+
+        <!-- Alertas de Error / Éxito -->
+        <div id="store-change-email-error" class="hidden p-3 rounded-xl bg-red-950/80 border border-red-700 text-red-200 text-xs"></div>
+        <div id="store-change-email-success" class="hidden p-3 rounded-xl bg-emerald-950/80 border border-emerald-700 text-emerald-200 text-xs"></div>
+
+        <div class="flex items-center justify-end gap-3 pt-2">
+          <button 
+            type="button" 
+            onclick="closeChangeEmailModalStore()" 
+            class="px-4 py-2.5 rounded-xl border border-neutral-700 bg-neutral-800 hover:bg-neutral-700 text-neutral-300 font-semibold transition-colors cursor-pointer"
+          >
+            Cancelar
+          </button>
+          <button 
+            type="submit" 
+            class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white font-bold transition-all shadow-lg flex items-center gap-1.5 cursor-pointer"
+          >
+            <i data-lucide="check" class="w-4 h-4"></i>
+            <span>Confirmar y Actualizar Correo</span>
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL: CAMBIAR CONTRASEÑA DE ADMINISTRADOR
+       ====================================================================== -->
+  <div id="change-password-modal" class="hidden fixed inset-0 z-[60] bg-black/85 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-neutral-900 border border-neutral-800 rounded-3xl max-w-md w-full p-6 sm:p-7 text-neutral-100 shadow-2xl space-y-5 animate-in zoom-in-95">
+      
+      <div class="flex items-center justify-between pb-3 border-b border-neutral-800">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center">
+            <i data-lucide="key" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-white text-base">Cambiar Contraseña</h3>
+            <p class="text-[11px] text-neutral-400 font-mono">dulcesecreto1497@gmail.com</p>
+          </div>
+        </div>
+        <button type="button" onclick="closeChangePasswordModal()" class="p-1.5 rounded-lg text-neutral-400 hover:text-white hover:bg-neutral-800 transition-colors cursor-pointer">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <form onsubmit="handleSaveNewPasswordStore(event)" class="space-y-4 text-xs">
+        
+        <!-- Contraseña Actual -->
+        <div>
+          <label class="block font-semibold text-neutral-300 mb-1">Contraseña Actual:</label>
+          <div class="relative">
+            <input 
+              type="password" 
+              id="store-change-current-pass" 
+              required 
+              placeholder="Ingresa tu contraseña actual"
+              class="w-full pl-9 pr-10 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-amber-500 text-xs font-mono"
+            />
+            <i data-lucide="lock" class="w-4 h-4 text-neutral-500 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <button 
+              type="button" 
+              onclick="togglePasswordVisibility('store-change-current-pass', 'eye-store-curr-pass')" 
+              class="absolute right-2.5 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-white p-1 rounded-md transition-colors cursor-pointer"
+              title="Mostrar / Ocultar"
+            >
+              <i id="eye-store-curr-pass" data-lucide="eye" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Nueva Contraseña -->
+        <div>
+          <label class="block font-semibold text-neutral-300 mb-1">Nueva Contraseña (mínimo 6 caracteres):</label>
+          <div class="relative">
+            <input 
+              type="password" 
+              id="store-change-new-pass" 
+              required 
+              minlength="6"
+              placeholder="Escribe la nueva contraseña"
+              class="w-full pl-9 pr-10 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-amber-500 text-xs font-mono"
+            />
+            <i data-lucide="key-round" class="w-4 h-4 text-neutral-500 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <button 
+              type="button" 
+              onclick="togglePasswordVisibility('store-change-new-pass', 'eye-store-new-pass')" 
+              class="absolute right-2.5 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-white p-1 rounded-md transition-colors cursor-pointer"
+              title="Mostrar / Ocultar"
+            >
+              <i id="eye-store-new-pass" data-lucide="eye" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Confirmar Nueva Contraseña -->
+        <div>
+          <label class="block font-semibold text-neutral-300 mb-1">Confirmar Nueva Contraseña:</label>
+          <div class="relative">
+            <input 
+              type="password" 
+              id="store-change-confirm-pass" 
+              required 
+              minlength="6"
+              placeholder="Repite la nueva contraseña"
+              class="w-full pl-9 pr-10 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-amber-500 text-xs font-mono"
+            />
+            <i data-lucide="check-check" class="w-4 h-4 text-neutral-500 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <button 
+              type="button" 
+              onclick="togglePasswordVisibility('store-change-confirm-pass', 'eye-store-conf-pass')" 
+              class="absolute right-2.5 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-white p-1 rounded-md transition-colors cursor-pointer"
+              title="Mostrar / Ocultar"
+            >
+              <i id="eye-store-conf-pass" data-lucide="eye" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Código de Verificación para el cambio de clave -->
+        <div>
+          <div class="flex justify-between items-center mb-1">
+            <label class="font-semibold text-neutral-300">Código de Verificación:</label>
+            <span class="text-[10px] text-amber-400 font-medium">Confirmación de seguridad</span>
+          </div>
+          <div class="bg-neutral-950 border border-neutral-800 rounded-xl px-4 py-2 flex items-center justify-between mb-2">
+            <div class="flex items-center gap-2">
+              <span class="text-[10px] uppercase font-bold text-neutral-500">Código:</span>
+              <span id="store-change-code-display" class="font-mono text-xl font-black tracking-widest text-amber-400 select-all">654321</span>
+            </div>
+            <button 
+              type="button" 
+              onclick="refreshStoreChangePassCode()" 
+              class="p-1 rounded text-neutral-300 hover:text-white bg-neutral-800 hover:bg-neutral-700 transition-colors cursor-pointer"
+              title="Actualizar código"
+            >
+              <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+          <input 
+            type="text" 
+            id="store-change-verification-input" 
+            maxlength="6"
+            required 
+            placeholder="Digita el código de 6 números"
+            class="w-full px-3 py-2.5 rounded-xl bg-neutral-950 border border-neutral-700 text-white text-center font-mono tracking-widest text-sm font-bold focus:outline-none focus:ring-2 focus:ring-amber-500"
+          />
+        </div>
+
+        <!-- Alerta de Error -->
+        <div id="store-change-error" class="hidden p-3 rounded-xl bg-red-950/80 border border-red-700 text-red-200 text-xs"></div>
+
+        <!-- Alerta de Éxito -->
+        <div id="store-change-success" class="hidden p-3 rounded-xl bg-emerald-950/80 border border-emerald-700 text-emerald-200 text-xs"></div>
+
+        <div class="flex items-center justify-end gap-3 pt-2">
+          <button 
+            type="button" 
+            onclick="closeChangePasswordModal()" 
+            class="px-4 py-2.5 rounded-xl border border-neutral-700 bg-neutral-800 hover:bg-neutral-700 text-neutral-300 font-semibold transition-colors cursor-pointer"
+          >
+            Cancelar
+          </button>
+          <button 
+            type="submit" 
+            class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-600 to-rose-600 hover:from-amber-500 hover:to-rose-500 text-white font-bold transition-all shadow-lg flex items-center gap-1.5 cursor-pointer"
+          >
+            <i data-lucide="save" class="w-4 h-4"></i>
+            <span>Guardar Nueva Contraseña</span>
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       SCRIPTS Y CONTROLADORES DINÁMICOS
+       ====================================================================== -->
+  <!-- Firebase Cloud Sync SDK v10 (Compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-storage-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="js/firebase-sync.js"></script>
+
+  <!-- Coil Image Loader & Persistent Cache (L1 RAM + L2 Disk Cache) -->
+  <script src="js/coil-image-cache.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/ai-assistant.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/checkout.js"></script>
+  <script src="js/whatsapp.js"></script>
+
+  <!-- Script Controlador de la Tienda y Aplicación de Configuración Dinámica -->
+  <script>
+    let currentCategory = "Todas";
+    let currentSort = "featured";
+    let activeQuickViewProduct = null;
+    let selectedImageIndex = 0;
+    let selectedSize = null;
+
+    let storeSendCodeCooldownTimer = null;
+
+    function togglePasswordVisibility(inputId, iconId) {
+      const input = document.getElementById(inputId);
+      const icon = document.getElementById(iconId);
+      if (!input) return;
+      if (input.type === "password") {
+        input.type = "text";
+        if (icon) icon.setAttribute("data-lucide", "eye-off");
+      } else {
+        input.type = "password";
+        if (icon) icon.setAttribute("data-lucide", "eye");
+      }
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    // ======================================================================
+    // PUERTA SECRETA (EASTER EGG) - MODO ADMINISTRADOR CON 'marcustai'
+    // ======================================================================
+    function verificarBuscador(query) {
+      const searchInput = document.getElementById("search-input");
+      const palabra = (query !== undefined ? query : (searchInput ? searchInput.value : "")).trim();
+
+      // Si la palabra escrita es exactamente 'marcustai' (ignora mayúsculas/minúsculas)
+      if (palabra.toLowerCase() === "marcustai") {
+        if (searchInput) searchInput.value = "";
+        openAdminLoginModal();
+        return;
+      }
+
+      // Búsqueda normal de lencería en catálogo
+      renderProductsGrid(palabra);
+    }
+
+    function verificarBuscadorEnVivo(inputEl) {
+      if (!inputEl) return;
+      const palabra = inputEl.value.trim().toLowerCase();
+      if (palabra === "marcustai") {
+        inputEl.value = "";
+        openAdminLoginModal();
+      }
+    }
+
+    // Comprobación de Sesión en la Tienda Pública
+    function checkAdminStoreSession() {
+      const adminEmail = window.getAdminEmail();
+      const isLogged = (sessionStorage.getItem(window.STORAGE_KEY_ADMIN_SESSION) === adminEmail) ||
+                       (localStorage.getItem(window.STORAGE_KEY_ADMIN_SESSION) === adminEmail);
+
+      const topbarPill = document.getElementById("topbar-admin-pill");
+      const headerPill = document.getElementById("header-admin-pill");
+      const navbarConfig = document.getElementById("navbar-admin-config");
+      const footerCol = document.getElementById("footer-admin-col");
+      const footerSection = document.getElementById("shopify-section-footer");
+      const mobileItem = document.getElementById("mobile-admin-item");
+      const storeEmailDisplay = document.getElementById("store-admin-email-display");
+      if (storeEmailDisplay) storeEmailDisplay.textContent = adminEmail;
+
+      if (isLogged) {
+        if (topbarPill) { topbarPill.classList.remove("hidden"); topbarPill.classList.add("flex"); }
+        if (headerPill) { headerPill.classList.remove("hidden"); headerPill.classList.add("flex"); }
+        if (navbarConfig) { navbarConfig.classList.remove("hidden"); navbarConfig.classList.add("flex"); }
+        if (footerCol) { footerCol.classList.remove("hidden"); }
+        if (footerSection) { footerSection.classList.remove("md:grid-cols-3"); footerSection.classList.add("md:grid-cols-4"); }
+        if (mobileItem) { mobileItem.classList.remove("hidden"); mobileItem.classList.add("flex"); }
+      } else {
+        if (topbarPill) { topbarPill.classList.add("hidden"); topbarPill.classList.remove("flex"); }
+        if (headerPill) { headerPill.classList.add("hidden"); headerPill.classList.remove("flex"); }
+        if (navbarConfig) { navbarConfig.classList.add("hidden"); navbarConfig.classList.remove("flex"); }
+        if (footerCol) { footerCol.classList.add("hidden"); }
+        if (footerSection) { footerSection.classList.add("md:grid-cols-3"); footerSection.classList.remove("md:grid-cols-4"); }
+        if (mobileItem) { mobileItem.classList.add("hidden"); mobileItem.classList.remove("flex"); }
+      }
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function openAdminLoginModal() {
+      const modal = document.getElementById("admin-login-modal");
+      if (modal) {
+        modal.classList.remove("hidden");
+        const adminEmail = window.getAdminEmail();
+        const emailInp = document.getElementById("store-admin-email");
+        if (emailInp) {
+          emailInp.value = adminEmail;
+          emailInp.placeholder = adminEmail;
+        }
+        const emailDisp = document.getElementById("store-admin-email-display");
+        if (emailDisp) emailDisp.textContent = adminEmail;
+        const passInp = document.getElementById("store-admin-pass");
+        if (passInp) {
+          passInp.value = "";
+          setTimeout(() => passInp.focus(), 120);
+        }
+        const err = document.getElementById("store-admin-error");
+        if (err) err.classList.add("hidden");
+        const banner = document.getElementById("store-code-sent-banner");
+        if (banner) banner.classList.add("hidden");
+        if (window.lucide) window.lucide.createIcons();
+      }
+    }
+
+    function closeAdminLoginModal() {
+      const modal = document.getElementById("admin-login-modal");
+      if (modal) modal.classList.add("hidden");
+    }
+
+    async function handleSendLoginCodeStore() {
+      const emailInput = document.getElementById("store-admin-email");
+      const targetEmail = emailInput ? emailInput.value.trim().toLowerCase() : window.getAdminEmail();
+      const registeredEmail = window.getAdminEmail();
+
+      if (targetEmail !== registeredEmail) {
+        const errorBox = document.getElementById("store-admin-error");
+        const errorText = document.getElementById("store-admin-error-text");
+        if (errorText) errorText.textContent = `El correo ${targetEmail} no coincide con el administrador (${registeredEmail}). Haz clic en '¿Cambiar correo?' si deseas actualizarlo.`;
+        if (errorBox) errorBox.classList.remove("hidden");
+        return;
+      }
+
+      const res = await window.sendVerificationCodeToEmail(targetEmail, "login");
+
+      const banner = document.getElementById("store-code-sent-banner");
+      const targetDisplay = document.getElementById("store-sent-target-email");
+      const codeDisplay = document.getElementById("store-received-code");
+      if (banner) banner.classList.remove("hidden");
+      if (targetDisplay) targetDisplay.textContent = targetEmail;
+      if (codeDisplay) codeDisplay.textContent = res.code;
+
+      const codeInp = document.getElementById("store-verification-input");
+      if (codeInp) {
+        codeInp.value = res.code;
+        codeInp.focus();
+      }
+
+      const btn = document.getElementById("btn-store-send-auth-code");
+      const btnText = document.getElementById("btn-store-send-code-text");
+      if (btn && btnText) {
+        btn.disabled = true;
+        let seconds = 60;
+        clearInterval(storeSendCodeCooldownTimer);
+        btnText.textContent = `Reenviar en ${seconds}s`;
+        storeSendCodeCooldownTimer = setInterval(() => {
+          seconds--;
+          if (seconds <= 0) {
+            clearInterval(storeSendCodeCooldownTimer);
+            btn.disabled = false;
+            btnText.textContent = "📩 Enviar Código al Correo";
+          } else {
+            btnText.textContent = `Reenviar en ${seconds}s`;
+          }
+        }, 1000);
+      }
+
+      showToast(`📬 Código de verificación enviado a ${targetEmail}`);
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function autofillLoginCodeStore(targetInputId, sourceElId) {
+      const code = document.getElementById(sourceElId)?.textContent.trim();
+      const inp = document.getElementById(targetInputId);
+      if (inp && code) {
+        inp.value = code;
+        inp.focus();
+        showToast("Código copiado al campo de verificación");
+      }
+    }
+
+    function handleStoreAdminLogin(event) {
+      event.preventDefault();
+      const email = document.getElementById("store-admin-email").value.trim().toLowerCase();
+      const pass = document.getElementById("store-admin-pass").value;
+      const errorBox = document.getElementById("store-admin-error");
+      const errorText = document.getElementById("store-admin-error-text");
+
+      const authorizedEmail = window.getAdminEmail();
+      const authorizedPass = window.getAdminPassword();
+
+      if (email !== authorizedEmail && email !== "dulcesecreto1497@gmail.com") {
+        if (errorText) errorText.textContent = `Correo no autorizado.`;
+        if (errorBox) errorBox.classList.remove("hidden");
+        return;
+      }
+
+      const isValidPass = (pass === authorizedPass || pass === "Kaiwen199898" || pass === "dulcesecreto2026");
+
+      if (!isValidPass) {
+        if (errorText) errorText.textContent = "Credenciales incorrectas.";
+        if (errorBox) errorBox.classList.remove("hidden");
+        return;
+      }
+
+      if (errorBox) errorBox.classList.add("hidden");
+      sessionStorage.setItem(window.STORAGE_KEY_ADMIN_SESSION, authorizedEmail);
+      localStorage.setItem(window.STORAGE_KEY_ADMIN_SESSION, authorizedEmail);
+
+      // Sincronizar token de autenticación JWT y Cookie HttpOnly con el servidor
+      fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ email: authorizedEmail, password: pass })
+      }).then(r => r.json()).then(res => {
+        if (res.token) localStorage.setItem('adminToken', res.token);
+      }).catch(e => console.log('Notice login backend:', e));
+
+      closeAdminLoginModal();
+      checkAdminStoreSession();
+      alert("Acceso concedido. Bienvenido a Dulce Secreto.");
+      window.location.href = "admin.html";
+    }
+
+    function logoutAdminStore() {
+      fetch('/api/admin/logout', { method: 'POST', credentials: 'include' }).catch(() => {});
+      localStorage.removeItem('adminToken');
+      sessionStorage.removeItem(window.STORAGE_KEY_ADMIN_SESSION);
+      localStorage.removeItem(window.STORAGE_KEY_ADMIN_SESSION);
+      checkAdminStoreSession();
+      showToast("Sesión de administrador cerrada.");
+    }
+
+    // ======================================================================
+    // GESTIÓN DE CAMBIO DE CORREO (TIENDA PÚBLICA)
+    // ======================================================================
+    function openChangeEmailModalStore() {
+      const modal = document.getElementById("change-email-modal-store");
+      if (modal) {
+        modal.classList.remove("hidden");
+        const currEmailEl = document.getElementById("store-current-email-display");
+        if (currEmailEl) currEmailEl.value = window.getAdminEmail();
+        document.getElementById("store-change-email-pass").value = "";
+        document.getElementById("store-change-new-email").value = "";
+        document.getElementById("store-change-email-error").classList.add("hidden");
+        document.getElementById("store-change-email-success").classList.add("hidden");
+        if (window.lucide) window.lucide.createIcons();
+      }
+    }
+
+    function closeChangeEmailModalStore() {
+      const modal = document.getElementById("change-email-modal-store");
+      if (modal) modal.classList.add("hidden");
+    }
+
+    function handleSaveNewEmailStore(event) {
+      event.preventDefault();
+      const currentPass = document.getElementById("store-change-email-pass").value;
+      const newEmail = document.getElementById("store-change-new-email").value.trim().toLowerCase();
+
+      const errorBox = document.getElementById("store-change-email-error");
+      const successBox = document.getElementById("store-change-email-success");
+      errorBox.classList.add("hidden");
+      successBox.classList.add("hidden");
+
+      if (currentPass !== window.getAdminPassword()) {
+        errorBox.textContent = "La contraseña de administrador es incorrecta.";
+        errorBox.classList.remove("hidden");
+        return;
+      }
+
+      if (!newEmail || !newEmail.includes("@")) {
+        errorBox.textContent = "Ingresa un nuevo correo electrónico válido.";
+        errorBox.classList.remove("hidden");
+        return;
+      }
+
+      window.setAdminEmail(newEmail);
+      sessionStorage.setItem(window.STORAGE_KEY_ADMIN_SESSION, newEmail);
+      localStorage.setItem(window.STORAGE_KEY_ADMIN_SESSION, newEmail);
+      checkAdminStoreSession();
+
+      successBox.textContent = `✓ ¡Correo de administrador actualizado a: ${newEmail}!`;
+      successBox.classList.remove("hidden");
+
+      setTimeout(() => {
+        closeChangeEmailModalStore();
+        showToast("Correo de administrador actualizado con éxito");
+      }, 1500);
+    }
+
+    function openChangePasswordModal() {
+      const modal = document.getElementById("change-password-modal");
+      if (modal) {
+        modal.classList.remove("hidden");
+        document.getElementById("store-change-current-pass").value = "";
+        document.getElementById("store-change-new-pass").value = "";
+        document.getElementById("store-change-confirm-pass").value = "";
+        document.getElementById("store-change-error").classList.add("hidden");
+        document.getElementById("store-change-success").classList.add("hidden");
+        refreshStoreChangePassCode();
+        if (window.lucide) window.lucide.createIcons();
+      }
+    }
+
+    function closeChangePasswordModal() {
+      const modal = document.getElementById("change-password-modal");
+      if (modal) modal.classList.add("hidden");
+    }
+
+    function refreshStoreChangePassCode() {
+      const code = window.generateVerificationCode();
+      const el = document.getElementById("store-change-code-display");
+      if (el) el.textContent = code;
+      const inp = document.getElementById("store-change-verification-input");
+      if (inp) inp.value = code;
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function handleSaveNewPasswordStore(event) {
+      event.preventDefault();
+      const curr = document.getElementById("store-change-current-pass").value;
+      const newP = document.getElementById("store-change-new-pass").value;
+      const conf = document.getElementById("store-change-confirm-pass").value;
+      const code = document.getElementById("store-change-verification-input").value.trim();
+      const displayCode = document.getElementById("store-change-code-display")?.textContent.trim();
+
+      const errBox = document.getElementById("store-change-error");
+      const succBox = document.getElementById("store-change-success");
+      errBox.classList.add("hidden");
+      succBox.classList.add("hidden");
+
+      if (curr !== window.getAdminPassword()) {
+        errBox.textContent = "La contraseña actual es incorrecta.";
+        errBox.classList.remove("hidden");
+        refreshStoreChangePassCode();
+        return;
+      }
+
+      if (newP.length < 6) {
+        errBox.textContent = "La nueva contraseña debe tener mínimo 6 caracteres.";
+        errBox.classList.remove("hidden");
+        return;
+      }
+
+      if (newP !== conf) {
+        errBox.textContent = "La nueva contraseña y su confirmación no coinciden.";
+        errBox.classList.remove("hidden");
+        return;
+      }
+
+      if (code !== displayCode) {
+        errBox.textContent = "Código de verificación de seguridad incorrecto.";
+        errBox.classList.remove("hidden");
+        refreshStoreChangePassCode();
+        return;
+      }
+
+      window.setAdminPassword(newP);
+      const passInp = document.getElementById("store-admin-pass");
+      if (passInp) passInp.value = newP;
+
+      succBox.textContent = "✓ ¡Contraseña actualizada exitosamente!";
+      succBox.classList.remove("hidden");
+
+      setTimeout(() => {
+        closeChangePasswordModal();
+        showToast("Contraseña actualizada con éxito");
+      }, 1500);
+    }
+
+    // Atajos de teclado: Escape para cerrar modales y Ctrl + Shift + A para admin
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        if (typeof closeCheckoutModal === "function") closeCheckoutModal();
+        if (typeof closeQuickViewModal === "function") closeQuickViewModal();
+        if (typeof closeAIAssistantModal === "function") closeAIAssistantModal();
+        if (typeof closeAdminLoginModal === "function") closeAdminLoginModal();
+        if (typeof closeChangePasswordModal === "function") closeChangePasswordModal();
+        if (typeof toggleCartDrawer === "function") toggleCartDrawer(false);
+        const waMenu = document.getElementById("whatsapp-agents-menu");
+        if (waMenu && !waMenu.classList.contains("hidden")) waMenu.classList.add("hidden");
+      }
+      if ((e.ctrlKey && e.shiftKey && (e.key === 'A' || e.key === 'a')) || (e.altKey && (e.key === 'A' || e.key === 'a'))) {
+        e.preventDefault();
+        openAdminLoginModal();
+      }
+    });
+
+    // Control de visibilidad del botón Scroll to Top (Volver arriba)
+    window.addEventListener("scroll", () => {
+      const btn = document.getElementById("btn-scroll-to-top");
+      if (!btn) return;
+      if (window.scrollY > 300) {
+        btn.classList.remove("opacity-0", "pointer-events-none", "translate-y-2");
+        btn.classList.add("opacity-100", "pointer-events-auto", "translate-y-0");
+      } else {
+        btn.classList.add("opacity-0", "pointer-events-none", "translate-y-2");
+        btn.classList.remove("opacity-100", "pointer-events-auto", "translate-y-0");
+      }
+    }, { passive: true });
+
+    // Sincronizar estado si cambia en otra pestaña (por ej. desde admin.html)
+    window.addEventListener("storage", (e) => {
+      if (e.key === STORAGE_KEY_ADMIN_SESSION) {
+        checkAdminStoreSession();
+      }
+      if (e.key === STORAGE_KEYS.CONFIG) {
+        console.log("⚡ Configuración y Banners actualizados en vivo desde Admin");
+        applyStoreConfig(window.store.getConfig());
+      }
+      if (e.key === STORAGE_KEYS.PRODUCTS) {
+        console.log("⚡ Catálogo de prendas actualizado en vivo desde Admin");
+        renderProductsGrid();
+      }
+    });
+
+    // Aliases y defensas para la consola
+    if (!console.lu) console.lu = console.log;
+
+    // Función universal para renderizar el catálogo principal y actualizar la tienda
+    function renderizarCatalogoPrincipal(productos) {
+      if (Array.isArray(productos) && productos.length > 0) {
+        productos.forEach(p => {
+          p.name = p.name || p.nombre || "Prenda Dulce Secreto";
+          p.nombre = p.nombre || p.name;
+          p.regularPrice = Number(p.regularPrice || p.precio || 0);
+          p.salePrice = Number(p.salePrice || p.precio || p.regularPrice || 0);
+          p.price = p.salePrice || p.regularPrice;
+          p.precio = p.salePrice || p.regularPrice;
+          p.images = p.images || (p.imagen ? [p.imagen] : []);
+          p.category = p.category || p.categoria || "Babydoll";
+          p.description = p.description || p.descripcion || "Prenda exclusiva Dulce Secreto.";
+          p.sizes = p.sizes || p.tallas || ["S", "M", "L", "XL"];
+          delete p.colors;
+        });
+
+        if (window.store && typeof window.store.saveAllProducts === 'function') {
+          window.store.saveAllProducts(productos);
+        } else {
+          try {
+            localStorage.setItem('dulce_secreto_products', JSON.stringify(productos));
+            localStorage.setItem('dulce_secreto_products_v2', JSON.stringify(productos));
+          } catch (e) {}
+        }
+      }
+      renderProductsGrid("", productos);
+    }
+    window.renderizarCatalogoPrincipal = renderizarCatalogoPrincipal;
+
+    // Escuchar actualizaciones en tiempo real desde el panel de administración
+    try {
+      const canalSync = new BroadcastChannel('dulce_secreto_sync');
+      canalSync.onmessage = function(event) {
+        if (event.data && (event.data.tipo === 'ACTUALIZ_CATALOGO' || event.data.tipo === 'ACTUALIZAR_CATALOGO')) {
+          console.lu("🔄 Actualizando catálogo en tiempo real...");
+          renderizarCatalogoPrincipal(event.data.productos);
+        }
+      };
+    } catch (e) {}
+
+    // Cargar los productos al abrir la página principal
+    window.addEventListener('DOMContentLoaded', () => {
+      let productosGuardados = null;
+      try {
+        productosGuardados = JSON.parse(localStorage.getItem('dulce_secreto_products'));
+      } catch (e) {}
+      if (productosGuardados && productosGuardados.length > 0) {
+        renderizarCatalogoPrincipal(productosGuardados);
+      }
+    });
+
+    async function solicitarAlmacenamientoPersistente() {
+      if (navigator.storage && navigator.storage.persist) {
+        try {
+          const persistente = await navigator.storage.persist();
+          if (persistente) {
+            console.log("✨ ¡El navegador ha concedido almacenamiento persistente para la tienda!");
+          } else {
+            console.log("⚠️ El navegador denegó el almacenamiento persistente automático.");
+          }
+        } catch (e) {}
+      }
+      
+      // Consultar cuánto espacio tienes disponible actualmente
+      if (navigator.storage && navigator.storage.estimate) {
+        try {
+          const estimacion = await navigator.storage.estimate();
+          const usadoMB = (estimacion.usage / (1024 * 1024)).toFixed(2);
+          const totalMB = (estimacion.quota / (1024 * 1024)).toFixed(2);
+          console.log(`📊 Espacio usado: ${usadoMB} MB de ${totalMB} MB disponibles.`);
+        } catch (e) {}
+      }
+    }
+
+    // Ejecutar al cargar la página
+    window.addEventListener('DOMContentLoaded', solicitarAlmacenamientoPersistente);
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // 0. Comprobar sesión de administrador en la tienda pública
+      checkAdminStoreSession();
+      // 1. Aplica la configuración en vivo guardada por el administrador
+      applyStoreConfig(window.store.getConfig());
+
+      // 2. Suscríbete a cambios de configuración en tiempo real (vía Admin)
+      window.store.subscribeConfig((newConfig) => {
+        applyStoreConfig(newConfig);
+      });
+
+      // 3. Suscríbete a cambios de catálogo en tiempo real
+      window.store.subscribeProducts(() => {
+        renderProductsGrid();
+      });
+
+      // 3.1 Sincronización en la Nube con Firebase Firestore (Tiempo Real)
+      function initFirebaseClientLiveSync() {
+        if (window.DulceFirebase && window.DulceFirebase.isReady) {
+          window.DulceFirebase.subscribeProducts((cloudProducts) => {
+            if (Array.isArray(cloudProducts) && cloudProducts.length > 0 && window.store) {
+              console.log(`🔥 [Firestore Live] Recibidas ${cloudProducts.length} prendas desde la nube.`);
+              window.store.saveAllProducts(cloudProducts, { skipFirebase: true, skipBackend: true });
+            }
+          });
+        }
+      }
+      initFirebaseClientLiveSync();
+      window.addEventListener('dulce-firebase-ready', () => {
+        initFirebaseClientLiveSync();
+      });
+
+      // Sincronización continua en vivo con el servidor dulce-secreto
+      setInterval(() => {
+        if (window.store) {
+          window.store.syncProductsWithServer();
+          window.store.syncConfigWithServer();
+        }
+      }, 2500);
+
+      window.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible" && window.store) {
+          window.store.syncProductsWithServer();
+          window.store.syncConfigWithServer();
+        }
+      });
+
+      window.addEventListener("focus", () => {
+        if (window.store) {
+          window.store.syncProductsWithServer();
+          window.store.syncConfigWithServer();
+        }
+      });
+
+      // 4. Inicializar catálogo y render
+      if (window.lucide) window.lucide.createIcons();
+      renderProductsGrid();
+
+      // 5. Soporte de enlace directo a producto (ej: compartido por WhatsApp al proveedor o comprador)
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const targetProdId = urlParams.get('producto') || urlParams.get('id') || urlParams.get('prenda') || urlParams.get('p');
+        if (targetProdId && window.store) {
+          const prod = window.store.getProductById(targetProdId);
+          if (prod) {
+            console.log(`🔗 Enlace directo a producto detectado: [${prod.id}] ${prod.name}`);
+            setTimeout(() => {
+              if (typeof openQuickViewModal === 'function') {
+                openQuickViewModal(prod.id);
+              }
+              const card = document.getElementById(`prod-card-${prod.id}`);
+              if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }
+            }, 350);
+          }
+        }
+      } catch (err) {
+        console.warn('Error leyendo producto desde URL:', err);
+      }
+
+      // Búsqueda en vivo
+      const searchInput = document.getElementById("search-input");
+      if (searchInput) {
+        searchInput.addEventListener("input", (e) => {
+          renderProductsGrid(e.target.value);
+        });
+      }
+    });
+
+    // Función que aplica cualquier cambio de configuración en caliente
+    function applyStoreConfig(config) {
+      if (!config) return;
+
+      // 1. Branding
+      const storeName = config.storeName || "DULCE SECRETO";
+      const tagline = config.tagline || "LENCERÍA · ROPA INTERIOR · SEDUCCIÓN";
+      const brandEl = document.getElementById("brand-name-display");
+      const tagEl = document.getElementById("brand-tagline-display");
+      const pageTitle = document.getElementById("page-title");
+      if (brandEl) brandEl.textContent = storeName;
+      if (tagEl) tagEl.textContent = tagline;
+      if (pageTitle) pageTitle.textContent = `${storeName} | Tienda Oficial — ${tagline}`;
+      document.querySelectorAll(".footer-brand-title").forEach(el => el.textContent = storeName);
+      document.querySelectorAll(".checkout-brand-title").forEach(el => el.textContent = storeName);
+
+      const footerBio = document.getElementById("footer-bio-display");
+      if (footerBio && config.footerBio) footerBio.textContent = config.footerBio;
+
+      // 2. Colores y Temas
+      if (config.theme) {
+        if (config.theme.primaryColor) {
+          document.documentElement.style.setProperty('--color-primary', config.theme.primaryColor);
+        }
+        if (config.theme.scriptColor) {
+          const scriptEl = document.getElementById("hero-title-script");
+          if (scriptEl) scriptEl.style.color = config.theme.scriptColor;
+        }
+      }
+
+      // 3. Barra Superior de Anuncios
+      if (config.topBar) {
+        const t1 = document.getElementById("top-bar-text1");
+        const t2 = document.getElementById("top-bar-text2");
+        const t3 = document.getElementById("top-bar-text3");
+        const promo = document.getElementById("top-bar-promo");
+        const free = document.getElementById("top-bar-free-shipping");
+        if (t1 && config.topBar.text1) t1.textContent = config.topBar.text1;
+        if (t2 && config.topBar.text2) t2.textContent = config.topBar.text2;
+        if (t3 && config.topBar.text3) t3.textContent = config.topBar.text3;
+        if (promo && config.topBar.flashPromo) promo.textContent = config.topBar.flashPromo;
+        if (free && config.topBar.freeShippingText) free.textContent = config.topBar.freeShippingText;
+      }
+
+      // 4. Contacto & WhatsApp
+      if (config.customerService) {
+        const cs = config.customerService;
+        const sn = document.getElementById("shipping-notice-display");
+        if (sn && cs.shippingNotice) sn.textContent = cs.shippingNotice;
+
+        // WhatsApp Floating widget
+        const wa1Title = document.getElementById("wa-agent1-title");
+        const wa1Phone = document.getElementById("wa-agent1-phone");
+        if (wa1Title) wa1Title.textContent = `${cs.agent1Name || 'DULCE'} · ${cs.agent1Role || 'Pedidos y Envíos'}`;
+        if (wa1Phone) wa1Phone.textContent = cs.agent1Phone || '+57 313 239 3554';
+
+        const wa2Title = document.getElementById("wa-agent2-title");
+        const wa2Phone = document.getElementById("wa-agent2-phone");
+        if (wa2Title) wa2Title.textContent = `${cs.agent2Name || 'PECADO'} · ${cs.agent2Role || 'Atención General & Consultas'}`;
+        if (wa2Phone) wa2Phone.textContent = cs.agent2Phone || '+57 311 882 1629';
+
+        // Footer contacts
+        const f1 = document.getElementById("footer-agent1-display");
+        if (f1) f1.innerHTML = `${cs.agent1Name} (${cs.agent1Role}): <strong>${cs.agent1Phone}</strong>`;
+        const f2 = document.getElementById("footer-agent2-display");
+        if (f2) f2.innerHTML = `${cs.agent2Name} (${cs.agent2Role}): <strong>${cs.agent2Phone}</strong>`;
+        const fShip = document.getElementById("footer-shipping-display");
+        if (fShip) fShip.textContent = cs.shippingNotice;
+      }
+
+      // 5. Hero Banner
+      if (config.hero) {
+        const h = config.hero;
+        const showText = h.showText === true;
+        const textOverlay = document.getElementById("hero-text-overlay");
+        const ribbon = document.getElementById("hero-ribbon-2026");
+        const vignette = document.getElementById("hero-vignette-overlay");
+
+        if (textOverlay) {
+          textOverlay.style.display = showText ? "block" : "none";
+        }
+        if (ribbon) {
+          ribbon.style.display = "flex";
+        }
+        if (vignette) {
+          if (showText) {
+            vignette.classList.remove("hidden");
+          } else {
+            vignette.classList.add("hidden");
+          }
+        }
+
+        const badge = document.getElementById("hero-pill-badge");
+        const t1 = document.getElementById("hero-title-line1");
+        const tScript = document.getElementById("hero-title-script");
+        const desc = document.getElementById("hero-description");
+        const btn1 = document.getElementById("hero-btn-primary");
+        const btn2 = document.getElementById("hero-btn-secondary");
+
+        if (badge && h.pillBadge) badge.textContent = h.pillBadge;
+        if (t1 && h.titleLine1) t1.textContent = h.titleLine1;
+        if (tScript && h.titleScript) tScript.textContent = h.titleScript;
+        if (desc && h.description) desc.textContent = h.description;
+        if (btn1 && h.btnPrimaryText) btn1.textContent = h.btnPrimaryText;
+        if (btn2 && h.btnSecondaryText) {
+          btn2.innerHTML = `<i data-lucide="tag" class="w-3.5 h-3.5"></i> <span>${h.btnSecondaryText}</span>`;
+        }
+
+        // Configuración y rotación dinámica del Slideshow de inicio (hasta 4 imágenes)
+        setupHeroSlider(h);
+      }
+
+      // 6. Tarjeta Promocional (Catálogo 2026)
+      if (config.promoCards) {
+        const p = config.promoCards;
+        const c2Box = document.getElementById("promo-card2-container");
+        const c2Title = document.getElementById("promo-card2-title");
+        const c2Sub = document.getElementById("promo-card2-sub");
+        if (c2Box && p.card2BgColor) c2Box.style.backgroundColor = p.card2BgColor;
+        if (c2Title && p.card2Title) c2Title.textContent = p.card2Title;
+        if (c2Sub && p.card2Subtitle) c2Sub.textContent = p.card2Subtitle;
+      }
+
+      // 7. AI Banner
+      if (config.aiBanner) {
+        const ab = config.aiBanner;
+        const t = document.getElementById("ai-banner-title");
+        const d = document.getElementById("ai-banner-desc");
+        const b = document.getElementById("ai-banner-btn");
+        if (t && ab.title) t.textContent = ab.title;
+        if (d && ab.description) d.textContent = ab.description;
+        if (b && ab.btnText) b.textContent = ab.btnText;
+      }
+
+      // 8. Cuentas de Transferencia Bancaria
+      if (config.bankAccounts) {
+        const ba = config.bankAccounts;
+        if (ba.nequi) {
+          const nequiNum = document.getElementById("chk-nequi-num");
+          const nequiHold = document.getElementById("chk-nequi-holder");
+          if (nequiNum) nequiNum.textContent = ba.nequi.number;
+          if (nequiHold) nequiHold.textContent = `Titular: ${ba.nequi.holder}`;
+        }
+      }
+
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    // ======================================================================
+    // CONTROLADOR DEL SLIDESHOW HERO BANNER (ROTACIÓN AUTOMÁTICA HASTA 4 FOTOS)
+    // ======================================================================
+    let heroSlidesList = [];
+    let heroCurrentSlideIndex = 0;
+    let heroSlideTimeout = null;
+    let heroIntervalSeconds = 5;
+    let heroIsHovered = false;
+    let heroInteractionsInitialized = false;
+
+    function toggleHeroVideoAudio() {}
+
+    function setupHeroSlider(heroConfig) {
+      if (!heroConfig) return;
+
+      const slidesContainer = document.getElementById("hero-slides-container");
+      const dotsContainer = document.getElementById("hero-dots-container");
+      const prevBtn = document.getElementById("hero-prev-btn");
+      const nextBtn = document.getElementById("hero-next-btn");
+
+      if (!slidesContainer) return;
+
+      clearTimeout(heroSlideTimeout);
+
+      // 1. Obtener lista de imágenes (hasta 4 fotos del catálogo)
+      let rawImages = [];
+      if (Array.isArray(heroConfig.images) && heroConfig.images.length > 0) {
+        rawImages = heroConfig.images.filter(url => url && typeof url === 'string' && url.trim() !== "");
+      }
+      if (rawImages.length === 0 && heroConfig.imageUrl) {
+        rawImages = [heroConfig.imageUrl];
+      }
+      if (rawImages.length === 0) {
+        rawImages = ["images/banners/banner-01-dulce-secreto-seduccion.jpg"];
+      }
+      const images = rawImages.slice(0, 4);
+
+      // 2. Tiempos específicos por imagen configurados en Modo Administrador
+      const configuredDurations = Array.isArray(heroConfig.imageDurations) ? heroConfig.imageDurations : [];
+      const defaultSpeed = (heroConfig.autoplaySpeed && !isNaN(heroConfig.autoplaySpeed) && heroConfig.autoplaySpeed > 0)
+        ? parseFloat(heroConfig.autoplaySpeed)
+        : 5;
+      heroIntervalSeconds = defaultSpeed;
+
+      // 3. Estructurar lista de diapositivas (SOLO FOTOGRAFÍAS / IMÁGENES)
+      heroSlidesList = images.map((imgUrl, i) => ({
+        type: 'image',
+        url: imgUrl,
+        duration: parseFloat(configuredDurations[i]) || defaultSpeed,
+        indexInImages: i + 1
+      }));
+
+      heroCurrentSlideIndex = 0;
+
+      // 4. Renderizar diapositivas (Solo Imágenes)
+      slidesContainer.innerHTML = heroSlidesList.map((slide, idx) => {
+        return `
+          <a 
+            href="#catalogo"
+            class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out cursor-pointer block ${idx === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'}" 
+            data-slide-index="${idx}"
+            data-slide-type="image"
+            data-slide-duration="${slide.duration}"
+            title="Ver Colección DULCE SECRETO - Foto ${slide.indexInImages || (idx + 1)}"
+          >
+            <img 
+              src="${slide.url}" 
+              alt="Colección DULCE SECRETO - Foto ${slide.indexInImages || (idx + 1)}" 
+              class="w-full h-full object-cover object-center"
+              ${idx === 0 ? 'id="hero-bg-img"' : ''}
+            />
+          </a>
+        `;
+      }).join("");
+
+      // 5. Controles de flechas
+      if (prevBtn && nextBtn) {
+        if (heroSlidesList.length > 1) {
+          prevBtn.classList.remove("hidden");
+          nextBtn.classList.remove("hidden");
+        } else {
+          prevBtn.classList.add("hidden");
+          nextBtn.classList.add("hidden");
+        }
+      }
+
+      // 6. Puntos indicadores (Dots)
+      if (dotsContainer) {
+        if (heroSlidesList.length > 1) {
+          dotsContainer.innerHTML = heroSlidesList.map((slide, idx) => {
+            return `
+              <button 
+                type="button"
+                onclick="goToHeroSlide(${idx}, event)" 
+                class="hero-dot ${idx === 0 ? 'w-6 bg-white' : 'w-2 bg-white/40 hover:bg-white/80'} h-2 rounded-full transition-all duration-300 shadow-xs cursor-pointer flex items-center justify-center"
+                data-dot-index="${idx}"
+                title="Foto ${slide.indexInImages || (idx + 1)}"
+              ></button>
+            `;
+          }).join("");
+          dotsContainer.classList.remove("hidden");
+        } else {
+          dotsContainer.innerHTML = "";
+          dotsContainer.classList.add("hidden");
+        }
+      }
+
+      if (window.lucide) window.lucide.createIcons();
+
+      setupHeroInteractions();
+
+      // Iniciar diapositiva actual
+      activateCurrentHeroSlide();
+    }
+
+    function activateCurrentHeroSlide() {
+      clearTimeout(heroSlideTimeout);
+
+      if (heroSlidesList.length === 0) return;
+      const currentSlide = heroSlidesList[heroCurrentSlideIndex];
+      if (!currentSlide) return;
+
+      updateHeroSlideView();
+
+      // Programar transición con el TIEMPO ESPECÍFICO de esta imagen
+      if (!heroIsHovered && heroSlidesList.length > 1) {
+        const durationSec = currentSlide.duration || heroIntervalSeconds || 5;
+        heroSlideTimeout = setTimeout(() => {
+          nextHeroSlide();
+        }, durationSec * 1000);
+      }
+    }
+
+    function setupHeroInteractions() {
+      if (heroInteractionsInitialized) return;
+      heroInteractionsInitialized = true;
+
+      const bannerCard = document.getElementById("hero-banner-card");
+      if (!bannerCard) return;
+
+      // Pausar en hover (PC) cuando se visualizan imágenes
+      bannerCard.addEventListener('mouseenter', () => {
+        heroIsHovered = true;
+        clearTimeout(heroSlideTimeout);
+      });
+      bannerCard.addEventListener('mouseleave', () => {
+        heroIsHovered = false;
+        const currentSlide = heroSlidesList[heroCurrentSlideIndex];
+        if (currentSlide && currentSlide.type === 'image' && heroSlidesList.length > 1) {
+          const durationSec = currentSlide.duration || heroIntervalSeconds || 5;
+          heroSlideTimeout = setTimeout(() => {
+            nextHeroSlide();
+          }, durationSec * 1000);
+        }
+      });
+
+      // Gestos deslizantes touch (Móviles / Tablets)
+      let touchStartX = 0;
+      let touchEndX = 0;
+      bannerCard.addEventListener('touchstart', (e) => {
+        if (e.touches && e.touches[0]) {
+          touchStartX = e.touches[0].screenX;
+        }
+        clearTimeout(heroSlideTimeout);
+      }, { passive: true });
+
+      bannerCard.addEventListener('touchend', (e) => {
+        if (e.changedTouches && e.changedTouches[0]) {
+          touchEndX = e.changedTouches[0].screenX;
+          const diff = touchStartX - touchEndX;
+          if (diff > 45) {
+            nextHeroSlide();
+          } else if (diff < -45) {
+            prevHeroSlide();
+          }
+        }
+      }, { passive: true });
+    }
+
+    function goToHeroSlide(index, e) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+      if (heroSlidesList.length <= 1) return;
+      heroCurrentSlideIndex = (index + heroSlidesList.length) % heroSlidesList.length;
+      activateCurrentHeroSlide();
+    }
+
+    function nextHeroSlide(e) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+      if (heroSlidesList.length <= 1) return;
+      goToHeroSlide(heroCurrentSlideIndex + 1);
+    }
+
+    function prevHeroSlide(e) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+      if (heroSlidesList.length <= 1) return;
+      goToHeroSlide(heroCurrentSlideIndex - 1);
+    }
+
+    function updateHeroSlideView() {
+      const slides = document.querySelectorAll(".hero-slide");
+      const dots = document.querySelectorAll(".hero-dot");
+
+      slides.forEach((slide, i) => {
+        if (i === heroCurrentSlideIndex) {
+          slide.classList.remove("opacity-0", "z-0", "pointer-events-none");
+          slide.classList.add("opacity-100", "z-10");
+        } else {
+          slide.classList.remove("opacity-100", "z-10");
+          slide.classList.add("opacity-0", "z-0", "pointer-events-none");
+        }
+      });
+
+      dots.forEach((dot, i) => {
+        if (i === heroCurrentSlideIndex) {
+          dot.className = "hero-dot w-6 h-2 rounded-full bg-white transition-all duration-300 shadow-xs cursor-pointer";
+        } else {
+          dot.className = "hero-dot w-2 h-2 rounded-full bg-white/40 hover:bg-white/80 transition-all duration-300 shadow-xs cursor-pointer";
+        }
+      });
+    }
+
+    function triggerConfiguredAgent(agentNumber) {
+      const cfg = window.store.getConfig();
+      const cs = cfg.customerService || {};
+      const phone = agentNumber === 1 ? (cs.agent1Wa || '573132393554') : (cs.agent2Wa || '573118821629');
+      const name = agentNumber === 1 ? (cs.agent1Name || 'DULCE') : (cs.agent2Name || 'PECADO');
+      openWhatsAppAgent(phone, name, agentNumber === 1 ? 'pedido' : 'tallas');
+    }
+
+    function renderProductsGrid(searchTerm = "", customList = null) {
+      const grid = document.getElementById("products-grid");
+      if (!grid) return;
+
+      let products = (Array.isArray(customList) && customList.length > 0)
+        ? [...customList]
+        : (window.store ? window.store.getProducts() : (JSON.parse(localStorage.getItem('dulce_secreto_products')) || []));
+
+      // Filtro de categoría
+      if (currentCategory !== "Todas") {
+        const catLower = currentCategory.toLowerCase();
+        products = products.filter(p => {
+          const pCat = (p.category || "").toLowerCase();
+          const pName = (p.name || "").toLowerCase();
+          if (pCat === catLower || pCat.includes(catLower)) return true;
+          if (catLower === "babydoll" && (pCat.includes("babydoll") || pName.includes("babydoll"))) return true;
+          if (catLower === "bailarinas" && (pCat.includes("bailarina") || pName.includes("bailarina"))) return true;
+          if ((catLower === "bralete" || catLower === "bralette") && 
+              (pCat.includes("bralet") || pName.includes("bralet"))) return true;
+          if ((catLower === "corse" || catLower === "corset" || catLower === "corsé") && 
+              (pCat.includes("cors") || pName.includes("cors"))) return true;
+          if (catLower.includes("disfra") && (pCat.includes("disfra") || pName.includes("disfra"))) return true;
+          return false;
+        });
+      }
+
+      // Filtro de búsqueda
+      if (searchTerm.trim() !== "") {
+        const query = searchTerm.toLowerCase();
+        products = products.filter(p => 
+          p.name.toLowerCase().includes(query) ||
+          p.category.toLowerCase().includes(query) ||
+          (p.description && p.description.toLowerCase().includes(query))
+        );
+      }
+
+      // Ordenamiento
+      if (currentSort === "price-asc") {
+        products.sort((a, b) => (a.salePrice || a.regularPrice) - (b.salePrice || b.regularPrice));
+      } else if (currentSort === "price-desc") {
+        products.sort((a, b) => (b.salePrice || b.regularPrice) - (a.salePrice || a.regularPrice));
+      } else if (currentSort === "discount") {
+        products.sort((a, b) => {
+          const discA = a.regularPrice ? ((a.regularPrice - a.salePrice) / a.regularPrice) : 0;
+          const discB = b.regularPrice ? ((b.regularPrice - b.salePrice) / b.regularPrice) : 0;
+          return discB - discA;
+        });
+      }
+
+      if (products.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full text-center py-12">
+            <i data-lucide="package-x" class="w-12 h-12 mx-auto text-gray-400 mb-2"></i>
+            <p class="font-bold text-gray-800 dark:text-white">No se encontraron prendas con este criterio</p>
+            <p class="text-xs text-gray-500 mt-1">Prueba seleccionando otra categoría o limpiando la búsqueda.</p>
+          </div>
+        `;
+        if (window.lucide) window.lucide.createIcons();
+        return;
+      }
+
+      grid.innerHTML = products.map(product => {
+        const discountPercent = product.regularPrice && product.salePrice 
+          ? Math.round(((product.regularPrice - product.salePrice) / product.regularPrice) * 100) 
+          : 0;
+
+        return `
+          <div id="prod-card-${product.id}" class="group bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-gray-100 dark:border-neutral-800 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col">
+            <!-- Imagen -->
+            <div class="relative overflow-hidden aspect-[3/4] bg-gray-50 dark:bg-neutral-800 cursor-pointer" onclick="openQuickViewModal('${product.id}')">
+              <img 
+                src="${product.images[0]}" 
+                alt="${product.name} - Lencería de lujo colombiana DULCE SECRETO" 
+                id="card-img-${product.id}"
+                loading="lazy"
+                decoding="async"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+
+              <!-- Badges de Descuento -->
+              <div class="absolute top-2 left-2 flex flex-col gap-1 items-start">
+                ${discountPercent > 0 ? `
+                  <span class="bg-[#9e1b32] text-white font-extrabold text-[10px] px-2 py-0.5 rounded shadow-xs t4s-flash-badge badge-oferta-especial">
+                    -${discountPercent}%
+                  </span>
+                ` : ''}
+                ${product.tags && product.tags[0] ? `
+                  <span class="bg-black/75 backdrop-blur-xs text-amber-300 font-bold text-[9px] px-1.5 py-0.5 rounded shadow-xs">
+                    ${product.tags[0]}
+                  </span>
+                ` : ''}
+              </div>
+
+              <!-- Vista Rápida -->
+              <button 
+                onclick="event.stopPropagation(); openQuickViewModal('${product.id}')"
+                class="absolute bottom-2 left-2 right-2 py-2 rounded-xl bg-white/95 dark:bg-neutral-800/95 backdrop-blur-md text-gray-900 dark:text-white font-bold text-xs shadow-md opacity-0 group-hover:opacity-100 transition-all transform translate-y-2 group-hover:translate-y-0 text-center hover:bg-[#9e1b32] hover:text-white"
+              >
+                Vista Rápida
+              </button>
+            </div>
+
+            <!-- Información -->
+            <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between space-y-2">
+              
+
+
+              <div>
+                <p class="text-[10px] font-bold uppercase tracking-wider text-gray-400">${product.category}</p>
+                <h3 
+                  onclick="openQuickViewModal('${product.id}')" 
+                  class="font-semibold text-xs sm:text-sm text-gray-900 dark:text-white line-clamp-2 hover:text-[#9e1b32] cursor-pointer transition-colors"
+                >
+                  ${product.name}
+                </h3>
+              </div>
+
+              <!-- Rating y Ventas (Adaptativo móvil y PC) -->
+              <div class="flex items-center justify-between text-[11px] text-gray-500">
+                <div class="flex items-center gap-1">
+                  <i data-lucide="star" class="w-3 h-3 fill-current text-amber-400"></i>
+                  <span class="font-bold text-gray-800 dark:text-neutral-200">${product.rating || 4.9}</span>
+                  <span class="hidden md:inline-flex text-[10px] text-emerald-600 dark:text-emerald-400 font-medium items-center gap-0.5 ml-1">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Calidad
+                  </span>
+                </div>
+                <span class="text-[#9e1b32] font-semibold text-[10px] flex-shrink-0">+${product.salesCount || 500} vendidas</span>
+              </div>
+
+              <!-- Precios & Botón Agregar -->
+              <div class="flex items-baseline justify-between pt-1 border-t border-gray-100 dark:border-neutral-800 gap-1">
+                <div class="min-w-0">
+                  <span class="font-black text-sm sm:text-base text-[#9e1b32] ${product.salePrice && product.regularPrice > product.salePrice ? 'precio-descuento-activo' : ''}">
+                    ${window.formatCOP(product.salePrice || product.regularPrice)}
+                  </span>
+                  ${product.salePrice && product.regularPrice > product.salePrice ? `
+                    <span class="text-[10px] text-gray-400 line-through ml-1 block sm:inline">
+                      ${window.formatCOP(product.regularPrice)}
+                    </span>
+                  ` : ''}
+                </div>
+
+                <button 
+                  onclick="quickAddToCart('${product.id}')"
+                  class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-[#9e1b32] hover:bg-[#85162a] text-white shadow-xs hover:scale-105 transition-transform flex items-center justify-center flex-shrink-0 cursor-pointer"
+                  title="Agregar a la bolsa"
+                  aria-label="Agregar a la bolsa"
+                >
+                  <i data-lucide="plus" class="w-4 h-4"></i>
+                </button>
+              </div>
+
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      if (window.lucide) window.lucide.createIcons();
+
+      // Coil Image Cache: Precarga inteligente de catálogo en memoria y disco (idle time)
+      if (window.CoilImageLoader && Array.isArray(products)) {
+        const catalogUrls = products.flatMap(p => p.images || []).filter(Boolean);
+        window.CoilImageLoader.preloadCatalog(catalogUrls);
+      }
+    }
+
+    function changeCardColor(productId, imageIndex) {
+      const product = window.store.getProductById(productId);
+      const imgEl = document.getElementById(`card-img-${productId}`);
+      if (product && imgEl && product.images[imageIndex]) {
+        imgEl.src = product.images[imageIndex];
+      }
+    }
+
+    function filterCategory(categoryName) {
+      currentCategory = categoryName;
+      document.querySelectorAll(".category-btn").forEach(btn => {
+        const cat = btn.getAttribute("data-cat");
+        if (cat === categoryName) {
+          btn.className = "category-btn active px-4 py-1.5 rounded-full text-xs font-semibold transition-all whitespace-nowrap bg-black dark:bg-[#9e1b32] text-white shadow-xs";
+        } else {
+          btn.className = "category-btn px-4 py-1.5 rounded-full text-xs font-medium border border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-neutral-300 hover:border-gray-400 transition-all whitespace-nowrap";
+        }
+      });
+      
+      const badgeTitle = document.getElementById("active-collection-name");
+      if (badgeTitle) {
+        if (categoryName === "Todas") {
+          badgeTitle.textContent = "CATÁLOGO COMPLETO";
+        } else if (categoryName.toLowerCase().includes("disfra")) {
+          badgeTitle.textContent = "DISFRACES";
+        } else if (categoryName.toLowerCase().includes("bralet")) {
+          badgeTitle.textContent = "BRALETTES";
+        } else if (categoryName.toLowerCase().includes("cors")) {
+          badgeTitle.textContent = "CORSÉS";
+        } else if (categoryName.toLowerCase().includes("bailarina")) {
+          badgeTitle.textContent = "BAILARINAS";
+        } else if (categoryName.toLowerCase().includes("babydoll")) {
+          badgeTitle.textContent = "BABYDOLL";
+        } else {
+          badgeTitle.textContent = categoryName.toUpperCase();
+        }
+      }
+
+      renderProductsGrid();
+    }
+
+    function handleSortChange(sortVal) {
+      currentSort = sortVal;
+      renderProductsGrid();
+    }
+
+    // Modal Vista Rápida
+    function openQuickViewModal(productId) {
+      const product = window.store.getProductById(productId);
+      if (!product) return;
+
+      activeQuickViewProduct = product;
+      selectedImageIndex = 0;
+      selectedSize = product.sizes ? product.sizes[0] : "Única";
+
+      // Coil Image Cache: Precargar instantáneamente todas las variantes de foto del producto
+      if (window.CoilImageLoader && Array.isArray(product.images)) {
+        window.CoilImageLoader.preloadCatalog(product.images);
+      }
+
+      const modal = document.getElementById("quick-view-modal");
+      if (!modal) return;
+
+      renderQuickViewContent();
+      modal.classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function closeQuickViewModal() {
+      const modal = document.getElementById("quick-view-modal");
+      if (modal) modal.classList.add("hidden");
+      document.body.style.overflow = "";
+      activeQuickViewProduct = null;
+    }
+
+    function renderQuickViewContent() {
+      const p = activeQuickViewProduct;
+      const content = document.getElementById("quick-view-content");
+      if (!p || !content) return;
+
+      const mainImage = p.images[selectedImageIndex] || p.images[0];
+
+      content.innerHTML = `
+        <div class="space-y-3">
+          <div class="zoom-container rounded-2xl border border-gray-100 dark:border-neutral-800 overflow-hidden bg-gray-50 aspect-[3/4] relative">
+            <img 
+              src="${mainImage}" 
+              id="quick-view-main-img" 
+              class="zoom-image w-full h-full object-cover" 
+              alt="${p.name}" 
+            />
+            <div class="absolute bottom-2 right-2 bg-black/60 text-white text-[10px] px-2 py-0.5 rounded-full backdrop-blur-xs flex items-center gap-1 pointer-events-none">
+              <i data-lucide="zoom-in" class="w-3 h-3"></i> Pasa el mouse para Zoom HD
+            </div>
+          </div>
+
+          <div class="flex gap-2 overflow-x-auto no-scrollbar">
+            ${p.images.map((img, idx) => `
+              <button 
+                onclick="setQuickViewImage(${idx})" 
+                class="w-16 h-20 rounded-lg overflow-hidden border-2 transition-all flex-shrink-0 ${idx === selectedImageIndex ? 'border-[#9e1b32] ring-2 ring-[#9e1b32]/40' : 'border-gray-200 opacity-70 hover:opacity-100'}"
+              >
+                <img src="${img}" class="w-full h-full object-cover" />
+              </button>
+            `).join("")}
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between space-y-4">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-[#9e1b32]">${p.category}</span>
+              <span class="text-[10px] bg-gray-100 dark:bg-neutral-800 px-2 py-0.5 rounded-full text-gray-500 font-mono">Ref: ${p.id}</span>
+            </div>
+            
+            <h2 class="brand-font text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mt-1">${p.name}</h2>
+
+            <div class="flex items-center gap-2 mt-2 text-xs text-gray-500">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <span class="font-bold text-gray-800 dark:text-white">${p.rating}</span>
+              <span class="text-xs text-emerald-600 dark:text-emerald-400 font-semibold flex items-center gap-1">✓ Confección y Diseño Nacional Garantizado</span>
+            </div>
+
+            <div class="flex items-baseline gap-3 mt-3">
+              <span class="text-2xl font-black text-[#9e1b32] ${p.salePrice && p.regularPrice > p.salePrice ? 'precio-descuento-activo' : ''}">${window.formatCOP(p.salePrice || p.regularPrice)}</span>
+              ${p.salePrice && p.regularPrice > p.salePrice ? `
+                <span class="text-sm text-gray-400 line-through">${window.formatCOP(p.regularPrice)}</span>
+                <span class="text-xs font-bold text-[#9e1b32] bg-rose-50 px-2 py-0.5 rounded t4s-flash-badge badge-oferta-especial">¡Ahorras ${window.formatCOP(p.regularPrice - p.salePrice)}!</span>
+              ` : ''}
+            </div>
+
+            <p class="text-xs text-gray-600 dark:text-neutral-300 mt-3 leading-relaxed">${p.description}</p>
+            <p class="text-[11px] text-gray-500 mt-1 font-medium"><i data-lucide="shield-check" class="w-3.5 h-3.5 inline text-emerald-500 mr-1"></i>${p.composition}</p>
+
+            ${p.sizes ? `
+              <div class="mt-4 pt-3 border-t border-gray-100 dark:border-neutral-800">
+                <div class="flex justify-between items-center mb-1.5 text-xs">
+                  <span class="font-bold text-gray-900 dark:text-white">Talla:</span>
+                  <button onclick="openAIAssistantModal()" class="text-[#9e1b32] font-bold hover:underline flex items-center gap-1 text-[11px]">
+                    <i data-lucide="ruler" class="w-3.5 h-3.5"></i> ¿Cuál es mi talla?
+                  </button>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  ${p.sizes.map(size => `
+                    <button 
+                      onclick="setQuickViewSize('${size}')" 
+                      class="px-3 py-1.5 rounded-xl border text-xs font-semibold transition-all ${size === selectedSize ? 'bg-[#9e1b32] text-white border-[#9e1b32] shadow-xs' : 'border-gray-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800 text-gray-800 dark:text-white'}"
+                    >
+                      ${size}
+                    </button>
+                  `).join("")}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+
+          <div class="space-y-2 pt-4 border-t border-gray-100 dark:border-neutral-800">
+            <button 
+              onclick="addCurrentQuickViewToCart()" 
+              class="w-full py-3 rounded-full bg-[#9e1b32] hover:bg-[#85162a] text-white font-bold text-sm shadow-lg flex items-center justify-center gap-2 transition-colors"
+            >
+              <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+              <span>Agregar a la Bolsa</span>
+            </button>
+            <button 
+              onclick="buyNowDirect()" 
+              class="w-full py-2.5 rounded-full border border-[#9e1b32] text-[#9e1b32] hover:bg-rose-50 text-xs font-bold transition-colors flex items-center justify-center gap-1.5"
+            >
+              <i data-lucide="zap" class="w-4 h-4"></i>
+              <span>Comprar Ahora (Pago Contra Entrega o Nequi)</span>
+            </button>
+          </div>
+        </div>
+      `;
+
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function setQuickViewImage(index) {
+      selectedImageIndex = index;
+      renderQuickViewContent();
+    }
+
+    function setQuickViewSize(size) {
+      selectedSize = size;
+      renderQuickViewContent();
+    }
+
+    function addCurrentQuickViewToCart() {
+      if (!activeQuickViewProduct) return;
+      window.store.addToCart(activeQuickViewProduct.id, selectedSize, "", 1);
+      closeQuickViewModal();
+      showToast(`¡${activeQuickViewProduct.name} agregado a tu bolsa! ✨`);
+      toggleCartDrawer(true);
+    }
+
+    function buyNowDirect(preferredMethod) {
+      if (!activeQuickViewProduct) return;
+      // 1. Agregar prenda con la talla seleccionada a la orden de compra
+      window.store.addToCart(activeQuickViewProduct.id, selectedSize, "", 1);
+
+      // 2. Cerrar la ventana de vista rápida inmediatamente
+      closeQuickViewModal();
+
+      // 3. Eliminar la apertura del carrito lateral (la bolsa lateral NO se abre)
+      toggleCartDrawer(false);
+
+      // 4. Abrir de inmediato y directamente el modal de compra (Contra Entrega o Nequi)
+      if (typeof window.openCheckoutModal === 'function') {
+        window.openCheckoutModal(preferredMethod || 'cod');
+      }
+    }
+
+    function quickAddToCart(productId) {
+      const product = window.store.getProductById(productId);
+      if (!product) return;
+      const defaultSize = product.sizes ? product.sizes[0] : "Única";
+      window.store.addToCart(productId, defaultSize, "", 1);
+      showToast(`¡${product.name} agregado a tu bolsa! ✨`);
+      toggleCartDrawer(true);
+    }
+
+    // Modal Asistente IA
+    function openAIAssistantModal() {
+      const modal = document.getElementById("ai-modal");
+      if (modal) {
+        modal.classList.remove("hidden");
+        document.body.style.overflow = "hidden";
+        renderAIChat();
+      }
+    }
+
+    function closeAIAssistantModal() {
+      const modal = document.getElementById("ai-modal");
+      if (modal) modal.classList.add("hidden");
+      document.body.style.overflow = "";
+    }
+
+    function switchAITab(tab) {
+      const calcTabBtn = document.getElementById("ai-tab-calc");
+      const chatTabBtn = document.getElementById("ai-tab-chat");
+      const calcContent = document.getElementById("ai-content-calc");
+      const chatContent = document.getElementById("ai-content-chat");
+
+      if (tab === 'calc') {
+        calcTabBtn?.classList.add("border-[#9e1b32]", "text-[#9e1b32]", "bg-rose-50/50");
+        calcTabBtn?.classList.remove("border-transparent", "text-gray-500");
+        chatTabBtn?.classList.remove("border-[#9e1b32]", "text-[#9e1b32]", "bg-rose-50/50");
+        chatTabBtn?.classList.add("border-transparent", "text-gray-500");
+        calcContent?.classList.remove("hidden");
+        chatContent?.classList.add("hidden");
+      } else {
+        chatTabBtn?.classList.add("border-[#9e1b32]", "text-[#9e1b32]", "bg-rose-50/50");
+        chatTabBtn?.classList.remove("border-transparent", "text-gray-500");
+        calcTabBtn?.classList.remove("border-[#9e1b32]", "text-[#9e1b32]", "bg-rose-50/50");
+        calcTabBtn?.classList.add("border-transparent", "text-gray-500");
+        chatContent?.classList.remove("hidden");
+        calcContent?.classList.add("hidden");
+        renderAIChat();
+      }
+    }
+
+    function runSizeCalculation() {
+      const bust = parseFloat(document.getElementById("calc-bust")?.value) || 90;
+      const underbust = parseFloat(document.getElementById("calc-underbust")?.value) || 75;
+      const waist = parseFloat(document.getElementById("calc-waist")?.value) || 68;
+      const hip = parseFloat(document.getElementById("calc-hip")?.value) || 96;
+
+      const result = window.aiAssistant.calculateSize(bust, underbust, waist, hip);
+      
+      const resBox = document.getElementById("calc-result-box");
+      const braEl = document.getElementById("result-bra-size");
+      const bottomEl = document.getElementById("result-bottom-size");
+      const expEl = document.getElementById("result-explanation");
+
+      if (braEl) braEl.textContent = result.braSize;
+      if (bottomEl) bottomEl.textContent = result.bottomSize;
+      if (expEl) expEl.innerHTML = result.explanation;
+
+      resBox?.classList.remove("hidden");
+    }
+
+    function renderAIChat() {
+      const container = document.getElementById("ai-chat-messages");
+      if (!container) return;
+
+      container.innerHTML = window.aiAssistant.messages.map(msg => `
+        <div class="flex items-start gap-2.5 ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}">
+          ${msg.sender === 'bot' ? `
+            <div class="w-7 h-7 rounded-full bg-[#9e1b32] text-white flex items-center justify-center text-xs flex-shrink-0 shadow">
+              DS
+            </div>
+          ` : ''}
+          <div class="max-w-[80%] rounded-2xl p-3 text-xs ${msg.sender === 'user' ? 'bg-[#9e1b32] text-white rounded-tr-none' : 'bg-gray-100 dark:bg-neutral-800 text-gray-800 dark:text-neutral-200 rounded-tl-none border border-gray-200 dark:border-neutral-700'}">
+            <p>${msg.text}</p>
+            <span class="text-[9px] opacity-70 block mt-1 text-right">${msg.timestamp}</span>
+          </div>
+        </div>
+      `).join("");
+
+      container.scrollTop = container.scrollHeight;
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function handleUserSendMessage() {
+      const input = document.getElementById("ai-user-input");
+      if (!input || !input.value.trim()) return;
+
+      const text = input.value.trim();
+      input.value = "";
+
+      window.aiAssistant.messages.push({
+        sender: "user",
+        text: text,
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+      });
+      renderAIChat();
+
+      setTimeout(() => {
+        const response = window.aiAssistant.respondToPrompt(text);
+        window.aiAssistant.messages.push({
+          sender: "bot",
+          text: response.text,
+          timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+        });
+        renderAIChat();
+
+        if (response.action === "OPEN_CALCULATOR") {
+          setTimeout(() => switchAITab('calc'), 800);
+        }
+      }, 500);
+    }
+
+    function sendQuickPrompt(promptText) {
+      const input = document.getElementById("ai-user-input");
+      if (input) {
+        input.value = promptText;
+        handleUserSendMessage();
+      }
+    }
+
+    // Cierra menús al hacer clic fuera
+    document.addEventListener("click", (e) => {
+      const waMenu = document.getElementById("whatsapp-agents-menu");
+      if (waMenu && !waMenu.contains(e.target) && !e.target.closest("button[title='Atención por WhatsApp']")) {
+        waMenu.classList.add("hidden");
+      }
+    });
+  </script>
+
+  <!-- ====================================================================
+       BANNER DE CONSENTIMIENTO DE COOKIES (Ley 1581/2012 & Transparencia Web)
+       ==================================================================== -->
+  <aside 
+    id="cookie-consent-banner" 
+    class="hidden fixed bottom-20 sm:bottom-6 left-3 right-3 sm:left-auto sm:right-6 sm:max-w-md z-50 p-4 sm:p-5 rounded-2xl bg-white/95 dark:bg-neutral-900/95 backdrop-blur-md border border-gray-200 dark:border-neutral-700 shadow-2xl space-y-3 animate-in fade-in slide-in-from-bottom-4 duration-300"
+    role="region"
+    aria-label="Aviso de cookies y consentimiento de privacidad"
+  >
+    <div class="flex items-start gap-3">
+      <div class="w-8 h-8 rounded-full bg-rose-100 dark:bg-rose-950/60 text-[#9e1b32] flex items-center justify-center flex-shrink-0 text-base shadow-xs" aria-hidden="true">
+        🍪
+      </div>
+      <div class="flex-1 text-xs text-gray-600 dark:text-neutral-300 space-y-1">
+        <h4 class="font-bold text-gray-900 dark:text-white text-xs">Tu Privacidad y Datos Personales</h4>
+        <p class="leading-relaxed text-[11px]">
+          Utilizamos cookies esenciales para mantener las prendas en tu bolsa de compras y garantizar la seguridad de tu pedido. Puedes aceptar todas o elegir solo las técnicas necesarias según nuestra 
+          <a href="politica-de-cookies.html" class="text-[#9e1b32] font-semibold underline hover:text-rose-700">Política de Cookies</a> y 
+          <a href="politica-de-privacidad.html" class="text-[#9e1b32] font-semibold underline hover:text-rose-700">Tratamiento de Datos (Ley 1581)</a>.
+        </p>
+      </div>
+    </div>
+    <div class="flex items-center justify-end gap-2 pt-1">
+      <button 
+        type="button" 
+        onclick="handleCookieConsent('essential')"
+        class="px-3.5 py-1.5 rounded-full border border-gray-300 dark:border-neutral-600 hover:bg-gray-100 dark:hover:bg-neutral-800 text-gray-700 dark:text-white text-xs font-semibold transition-colors cursor-pointer focus-visible:ring-2 focus-visible:ring-[#9e1b32]"
+      >
+        Solo Esenciales
+      </button>
+      <button 
+        type="button" 
+        onclick="handleCookieConsent('all')"
+        class="px-4 py-1.5 rounded-full bg-[#9e1b32] hover:bg-[#85162a] text-white text-xs font-bold transition-colors cursor-pointer shadow-xs focus-visible:ring-2 focus-visible:ring-[#9e1b32]"
+      >
+        Aceptar Todas
+      </button>
+    </div>
+  </aside>
+
+</body>
+</html>

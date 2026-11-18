@@ -1,0 +1,64 @@
+{
+  "storeName": "DULCE SECRETO",
+  "tagline": "LENCERÍA · ROPA INTERIOR · SEDUCCIÓN",
+  "footerBio": "Boutique colombiana especializada en lencería, babydolls, corsés, bralettes, disfraces y bailarinas finas diseñadas para celebrar tu sensualidad con total confianza.",
+  "theme": {
+    "defaultTheme": "vino-secreto",
+    "primaryColor": "#9e1b32",
+    "scriptColor": "#c23b53"
+  },
+  "customerService": {
+    "agent1Name": "DULCE",
+    "agent1Role": "Pedidos y envíos",
+    "agent1Phone": "+57 313 239 3554",
+    "agent1Wa": "573132393554",
+    "agent2Name": "PECADO",
+    "agent2Role": "Atención general y consultas",
+    "agent2Phone": "+57 311 882 1629",
+    "agent2Wa": "573118821629",
+    "shippingNotice": "Contra entrega en Bogotá · Envíos fuera de Bogotá con pago anticipado (flete según transportadora)"
+  },
+  "topBar": {
+    "text1": "Contra Entrega en Bogotá",
+    "text2": "Empaque 100% discreto",
+    "text3": "Nequi · Pago Anticipado Nacional",
+    "flashPromo": "⚡ Pago Contra Entrega en Bogotá · Fuera de Bogotá con Pago Anticipado y flete según transportadora",
+    "freeShippingText": "Envíos Seguros a Todo Colombia"
+  },
+  "shippingPolicy": {
+    "bogotaDelivery": "Pago Contra Entrega disponible en Bogotá D.C.",
+    "nationalDelivery": "Envíos fuera de Bogotá con Pago Anticipado (Nequi)",
+    "nationalRateNote": "Precio y disponibilidad del envío sujeto a la empresa transportadora",
+    "bogotaShippingCost": 12000
+  },
+  "shippingCost": 12000,
+  "hero": {
+    "useVideo": false,
+    "videoUrl": "",
+    "showText": false,
+    "pillBadge": "NUEVA COLECCIÓN · ENCAJE & SATÍN",
+    "titleLine1": "Tu secreto",
+    "titleScript": "mejor guardado",
+    "description": "Lencería que abraza tu cuerpo y despierta tu confianza. Pago contra entrega en Bogotá y envíos a todo el país con pago anticipado.",
+    "btnPrimaryText": "COMPRAR AHORA",
+    "btnSecondaryText": "Encuentra tu talla",
+    "imageUrl": "images/banners/banner-01-dulce-secreto-seduccion.jpg",
+    "images": [
+      "images/banners/banner-01-dulce-secreto-seduccion.jpg",
+      "images/banners/banner-02-lenceria-rosas-satin.jpg",
+      "images/banners/banner-03-conjunto-negro-vintage.jpg"
+    ],
+    "imageDurations": [5, 5, 5],
+    "autoplaySpeed": 5
+  },
+  "promoCards": {
+    "card2Title": "NUEVO",
+    "card2Subtitle": "CATÁLOGO 2026",
+    "card2BgColor": "#000000"
+  },
+  "aiBanner": {
+    "title": "Asistente de Tallas Dulce Secreto",
+    "description": "Dinos tu busto, bajo busto, cintura y cadera y te recomendamos la talla perfecta en segundos. Disponible en cada prenda.",
+    "btnText": "Probar ahora"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "dulce-secreto-store",
+  "version": "1.0.0",
+  "description": "Plataforma de E-commerce y Panel Administrativo Exclusivo de Dulce Secreto",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "express": "node express-server.js",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ecommerce",
+    "lingerie",
+    "dulce-secreto",
+    "admin-panel"
+  ],
+  "author": "Dulce Secreto",
+  "license": "ISC"
+}

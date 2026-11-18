@@ -1,0 +1,19 @@
+{
+  "name": "Dulce Secreto | Boutique Lencería Fina",
+  "short_name": "Dulce Secreto",
+  "description": "Boutique colombiana especializada en lencería, babydolls, corsés, bralettes, disfraces y bailarinas finas. Pago contra entrega en Bogotá y envíos nacionales con pago anticipado.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d0d0f",
+  "theme_color": "#9e1b32",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"]
+}
